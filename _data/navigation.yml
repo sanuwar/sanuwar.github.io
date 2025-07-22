@@ -1,11 +1,11 @@
 main:
-  - title: "Who I AM"
-    url: /About/
+  - title: "Who I Am"
+    url: /about/
   - title: "Field Notes"
-    url: /Articles/
-  - title: "What I have Built"
-    url: /Projects/
+    url: /articles/
+  - title: "What I’ve Built"
+    url: /projects/
   - title: "Beyond Code"
-    url: /Hobbies/
+    url: /hobbies/
   - title: "Let's Talk"
-    url: /Contact/
+    url: /contact/
