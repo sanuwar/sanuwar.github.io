@@ -1,9 +1,11 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Who I AM"
+    url: /About/
+  - title: "Field Notes"
+    url: /Articles/
+  - title: "What I have Built"
+    url: /Projects/
+  - title: "Beyond Code"
+    url: /Hobbies/
+  - title: "Let's Talk"
+    url: /Contact/
