@@ -6,6 +6,7 @@ layout: single
 author_profile: true
 ---
 Hi, I’m Sanuwar!
+
 Thanks for stopping by! I’m glad you found your way to my little corner of the internet. Whether you’re here for tech insights, AI experiments, or just curious about my hobbies, I hope you find something interesting and worth your time.
 
 Let me introduce me as an AI nerd and automation engineer who loves building smart, practical solutions that make life easier. With a Ph.D., a curious mind, and a passion for tech, I spend my days wrangling data, exploring GenAI, and occasionally getting lost in a good woodworking project or kayak trip.
