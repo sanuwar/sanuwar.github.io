@@ -1,0 +1,8 @@
+/* Enlarge and make the profile image rectangular */
+.sidebar .author__avatar {
+  width: 200px;
+  height: auto;
+  border-radius: 0;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
