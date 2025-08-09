@@ -1,6 +1,6 @@
 ---
-title: "Posts by Tag"
-permalink: /tags/
-layout: tags
-author_profile: true
+title: "What I’ve Built"
+layout: single
+permalink: /projects/
 ---
+Your project portfolio content here.
