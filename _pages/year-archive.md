@@ -1,6 +1,6 @@
 ---
-title: "Posts by Year"
-permalink: /posts/
-layout: posts
-author_profile: true
+title: "Beyond Code"
+layout: single
+permalink: /hobbies/
 ---
+Your hobbies and personal interests content here.
