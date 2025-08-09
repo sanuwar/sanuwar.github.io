@@ -1,6 +1,6 @@
 ---
-title: "Posts by Category"
-layout: categories
-permalink: /categories/
-author_profile: true
+title: "Field Notes"
+layout: single
+permalink: /articles/
 ---
+Your articles / blog intro page content here.
