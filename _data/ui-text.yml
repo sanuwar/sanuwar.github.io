@@ -1,0 +1,16 @@
+about-highlights:
+  - image_path: /assets/images/about/build.png
+    title: "What I’ve Built"
+    excerpt: "Agentic RAG flows, eval pipelines, and CI gates that keep models honest."
+    url: /projects/
+    btn_label: "See projects"
+  - image_path: /assets/images/about/notes.png
+    title: "Field Notes"
+    excerpt: "Short, practical write-ups on debugging evals, prompts, and retrieval."
+    url: /articles/
+    btn_label: "Read notes"
+  - image_path: /assets/images/about/beyond.png
+    title: "Beyond Code"
+    excerpt: "Woodworking, kayaking, camping—because batteries need recharging."
+    url: /hobbies/
+    btn_label: "Explore"
