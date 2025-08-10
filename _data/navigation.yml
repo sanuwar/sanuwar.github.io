@@ -3,8 +3,6 @@ main:
     url: /field-notes/
   - title: "Who I Am"
     url: /about/
-  - title: "Field Notes"
-    url: /articles/
   - title: "What I’ve Built"
     url: /projects/
   - title: "Beyond Code"
