@@ -32,7 +32,7 @@ collections:
 
 
 # Build settings
-markdown: kramdown
+markdown: markdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
