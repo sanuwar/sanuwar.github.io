@@ -1,4 +1,6 @@
 main:
+  - title: "Field Notes"
+    url: /field-notes/
   - title: "Who I Am"
     url: /about/
   - title: "Field Notes"
