@@ -24,6 +24,13 @@ github_username: username
 minimal_mistakes_skin: air
 search: true
 
+# Collections
+collections:
+  field-notes:
+    output: true
+    permalink: /:collection/:name/
+
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -116,7 +123,18 @@ defaults:
     values:
       layout: single
       author_profile: true
-
+  # _field-notes
+  - scope:
+      path: "_field-notes"
+      type: field-notes
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      
 category_archive:
   type: liquid
   path: /categories/
