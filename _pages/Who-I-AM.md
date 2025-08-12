@@ -1,7 +1,7 @@
 ---
 title: "Who I Am"
 layout: single
-permalink: /Who I AM/
+permalink: /Who-I-AM/
 author_profile: true   # shows your avatar + socials from _config.yml
 toc: false
 ---
