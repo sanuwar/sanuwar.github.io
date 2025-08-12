@@ -45,6 +45,9 @@ mermaid:
 
 # Collections
 collections:
+  what-I've-built:
+    output: true
+    permalink: /what-I've-built/:name/
   field-notes:
     output: true
     permalink: /:collection/:name/
