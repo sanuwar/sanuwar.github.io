@@ -2,6 +2,7 @@
 title: "Enterprise Agentic AI Chatbot with n8n"
 permalink: /what-I've-built/rag-chatbot/
 layout: default
+date: 2025-01-12
 ---
 
 # Enterprise Agentic AI Chatbot with n8n
@@ -10,7 +11,7 @@ A no-code demonstration of building an enterprise-grade RAG chatbot using n8n wo
 
 ## 🎥 Demo Video
 
-{% include video id="sUh1He4T6vk" provider="youtube" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sUh1He4T6vk" frameborder="0" allowfullscreen></iframe>
 
 *Watch the complete workflow setup and live demonstration of the enterprise agentic AI chatbot in action.*
 
@@ -113,6 +114,12 @@ This project demonstrates how to build a sophisticated, business-ready AI chatbo
 - **Vector Indexing**: Fast semantic search capabilities
 - **Response Caching**: Reduced API calls for common queries
 - **Batch Processing**: Efficient handling of document updates
+
+## 🔗 Resources
+
+- **n8n Workflows**: [Download Templates](#) *(Add your workflow export)*
+- **Setup Guide**: [Implementation Documentation](#) *(If available)*
+- **Live Demo**: [Try the Chatbot](#) *(If publicly accessible)*
 
 ## 🚀 Future Enhancements
 
