@@ -1,8 +1,32 @@
 ---
-title: "Enterprise Agentic AI Chatbot with n8n"
-permalink: /what-I've-built/rag-chatbot/
-layout: default
+title: "🚀 Enterprise Agentic AI Chatbot with n8n: No-Code RAG Implementation"
 date: 2025-01-12
+last_modified_at: 2025-01-12
+excerpt: "A comprehensive demonstration of building an enterprise-grade RAG chatbot using n8n workflows, showcasing automated data ingestion from Google Drive, intelligent customer interactions, and lead generation capabilities—all without writing a single line of code."
+header:
+  teaser: /assets/images/n8n-chatbot-demo.jpg
+  overlay_image: /assets/images/n8n-chatbot-demo.jpg
+  overlay_filter: 0.4
+  caption: "n8n Workflows: Visual AI Automation"
+categories:
+  - what-I've-built
+  - automation
+tags:
+  - n8n
+  - No-Code
+  - RAG
+  - Pinecone
+  - LLM
+  - Google-Drive
+  - Google-Sheets
+  - Lead-Generation
+  - Enterprise-AI
+  - Workflow-Automation
+toc: true
+toc_label: "Project Overview"
+toc_icon: "cogs"
+author_profile: true
+permalink: /what-I've-built/rag-chatbot/
 ---
 
 # Enterprise Agentic AI Chatbot with n8n
