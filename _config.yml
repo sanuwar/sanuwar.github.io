@@ -7,7 +7,6 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -24,16 +23,48 @@ github_username: username
 minimal_mistakes_skin: air
 search: true
 
+# Mermaid configuration
+mermaid:
+  # Version of mermaid library
+  # default: https://unpkg.com/mermaid@8.10.2/dist/mermaid.min.js
+  src: 'https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js'
+  config: |
+    {
+      "theme": "base",
+      "themeVariables": {
+        "primaryColor": "#4287f5",
+        "primaryTextColor": "#000000",
+        "primaryBorderColor": "#7C0000",
+        "lineColor": "#5e5e5e",
+        "sectionBkgColor": "#f8f9fa",
+        "altSectionBkgColor": "#ffffff",
+        "gridColor": "#e0e0e0",
+        "tertiaryColor": "#efefef"
+      }
+    }
+
 # Collections
 collections:
   field-notes:
     output: true
     permalink: /:collection/:name/
 
-
 # Build settings
-markdown: markdown
+markdown: kramdown
+highlighter: rouge
 remote_theme: mmistakes/minimal-mistakes
+
+# Markdown processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -86,8 +117,10 @@ author:
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
+
 head_scripts:
-    - /assets/css/custom.css
+  - /assets/css/custom.css
+  - https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js
 
 footer:
   links:
