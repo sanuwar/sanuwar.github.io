@@ -4,7 +4,7 @@ main:
   - title: "Who I Am"
     url: /about/
   - title: "What I’ve Built"
-    url: /projects/
+    url: /what-I've-built/
   - title: "Beyond Code"
     url: /hobbies/
   - title: "Let's Talk"
