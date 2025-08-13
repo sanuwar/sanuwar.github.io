@@ -10,7 +10,7 @@ header:
       url: "https://www.youtube.com/embed/sUh1He4T6vk"
       btn_class: "btn--primary"
     - label: "Back to Projects"
-      url: "/what-i-built/"
+      url: "/what-I-have-built/"
       btn_class: "btn--secondary"
 excerpt: "Enterprise-grade RAG chatbot built with n8n workflows - no code required! Automated data ingestion, intelligent conversations, and seamless lead generation."
 sidebar:
@@ -168,7 +168,7 @@ Ready to build your own? Here's the roadmap:
   <a href="https://www.youtube.com/embed/sUh1He4T6vk" class="btn btn--primary btn--large">
     <i class="fab fa-youtube"></i> Watch Full Demo
   </a>
-  <a href="/what-i-built/" class="btn btn--secondary btn--large">
+  <a href="/what-I-have-built/" class="btn btn--secondary btn--large">
     <i class="fas fa-arrow-left"></i> Back to Projects
   </a>
   <a href="/contact/" class="btn btn--info btn--large">
