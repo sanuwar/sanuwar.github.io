@@ -3,7 +3,7 @@ title: "What I have Built"
 layout: collection
 permalink: /what-I-have-built/
 collection: what-I-have-built
-entries_layout: grid
+entries_layout: list
 sort_by: date
 sort_order: reverse
 ---
