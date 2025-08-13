@@ -1,8 +1,8 @@
 about-highlights:
   - image_path: /assets/images/about/build.png
-    title: "What I-have Built"
+    title: "What I have Built"
     excerpt: "Agentic RAG flows, eval pipelines, and CI gates that keep models honest."
-    url: /What I-have Built/
+    url: /What I have Built/
     btn_label: "See projects"
   - image_path: /assets/images/about/notes.png
     title: "Field Notes"
