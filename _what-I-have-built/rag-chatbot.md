@@ -1,7 +1,7 @@
 ---
 title: "Enterprise Agentic AI Chatbot"
 layout: single
-permalink: /what-i-built/rag-chatbot/
+permalink: /what-I-have-built/rag-chatbot/
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/chatbot-banner.jpg
