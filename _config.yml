@@ -159,7 +159,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _field-notes
   - scope:
       path: "_field-notes"
       type: field-notes
@@ -170,6 +169,53 @@ defaults:
       comments: true
       share: true
       related: true
+  - scope:
+      path: "_what-I-have-built"
+    values:
+      author_profile: true
+  - scope:
+      path: "field-notes.md"
+    values:
+      author_profile: true
+  - scope:
+      path: "what-I-have-built.md"
+    values:
+      author_profile: true
+  # _what-I-have-built
+  - scope:
+      path: "_what-I-have-built"
+    values:
+      author_profile: true
+  # field-notes collection index
+  - scope:
+      path: "field-notes.md"
+    values:
+      author_profile: true
+  # what-I-have-built collection index
+  - scope:
+      path: "what-I-have-built.md"
+    values:
+      author_profile: true
+  # _what-I-have-built
+  - scope:
+      path: "_what-I-have-built"
+      type: what-I-have-built
+    values:
+      author_profile: true
+
+    # _field-notes collection index
+  - scope:
+      path: "field-notes.md"
+      type: field-notes
+    values:
+        author_profile: true
+
+    # _what-I-have-built collection index
+  - scope:
+      path: "what-I-have-built.md"
+      type: what-I-have-built
+    values:
+        author_profile: true
       
 category_archive:
   type: liquid
