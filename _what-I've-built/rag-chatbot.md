@@ -21,7 +21,6 @@ toc: true
 toc_label: "Project Overview"
 toc_icon: "cogs"
 author_profile: true
-permalink: /what-I've-built/rag-chatbot/
 ---
 
 # Enterprise Agentic AI Chatbot with n8n
