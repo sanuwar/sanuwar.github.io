@@ -1,8 +1,8 @@
 ---
-title: "What I've Built"
+title: "What I have Built"
 layout: collection
-permalink: /what-I've-built/
-collection: what-I've-built
+permalink: /what-I-have-built/
+collection: what-I-have-built
 entries_layout: grid
 sort_by: date
 sort_order: reverse
