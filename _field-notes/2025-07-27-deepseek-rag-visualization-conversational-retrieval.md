@@ -47,7 +47,7 @@ Here is how I prompted DeepSeek to create the visualization:
 
 DeepSeek utilized Mermaid, a JavaScript-based diagramming tool, to render the visual. Below is the generated diagram that helped me connect the architecture of a typical Q&A system:
 
-```mermaid
+<div class="mermaid">
 graph TD
     A[User Question] --> B[ConversationalRetrieverQA Chain]
     
@@ -96,7 +96,7 @@ graph TD
     style B fill:#fff3e0
     style J fill:#f3e5f5
     style K fill:#f3e5f5
-```
+</div>
 
 **From question to answer—here's how RAG really works under the hood. (Spoiler: It's not magic, just smart retrieval + LLM collaboration.)**
 {: .notice--success}

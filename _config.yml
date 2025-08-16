@@ -25,23 +25,11 @@ search: true
 
 # Mermaid configuration
 mermaid:
-  # Version of mermaid library
-  # default: https://unpkg.com/mermaid@8.10.2/dist/mermaid.min.js
-  src: 'https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js'
-  config: |
-    {
-      "theme": "base",
-      "themeVariables": {
-        "primaryColor": "#4287f5",
-        "primaryTextColor": "#000000",
-        "primaryBorderColor": "#7C0000",
-        "lineColor": "#5e5e5e",
-        "sectionBkgColor": "#f8f9fa",
-        "altSectionBkgColor": "#ffffff",
-        "gridColor": "#e0e0e0",
-        "tertiaryColor": "#efefef"
-      }
-    }
+  src: "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"
+  config:
+    theme: default
+    startOnLoad: true
+    securityLevel: "loose"  # Critical for GitHub Pages
 
 # Collections
 collections:
@@ -123,7 +111,6 @@ author:
 
 head_scripts:
   - /assets/css/custom.css
-  - https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js
 
 footer:
   links:
