@@ -1,36 +1,36 @@
 ---
-title: "CalorieLedger: CrewAI Fitness Tracker"
+title: "CrewAI Fitness Tracker"
 layout: single
 permalink: /what-I-have-built/crewai-fitness-tracker/
 header:
-  overlay_color: "#2ecc71"
-  overlay_image: /assets/images/fitness-banner.jpg
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/crewai-banner.jpg
   actions:
-    - label: "View Demo"
+    - label: "Watch Demo"
       url: "https://www.youtube.com/watch?v=gUQtA62PkkA"
       btn_class: "btn--primary"
     - label: "Back to Projects"
       url: "/what-I-have-built/"
       btn_class: "btn--secondary"
-excerpt: "No-code fitness app built with CrewAI system prompts - zero manual coding! Comprehensive agent instructions generated fully functional calorie tracking and exercise logging."
+excerpt: "Built CalorieLedger MVP in just 2 hours using CrewAI's multi-agent framework - from idea to working app with zero manual coding!"
 sidebar:
   - title: "Tech Stack"
     text: |
       - **Framework**: CrewAI
-      - **Language**: Python
-      - **Database**: Local storage
-      - **UI**: Streamlit/Basic web
-      - **Data**: Built-in presets
+      - **Agents**: 4-member team
+      - **Frontend**: HTML/CSS/JS
+      - **Development**: AI-driven
+      - **Time**: 2-3 hours
   - title: "Key Features"
     text: |
-      🤖 No-code development  
-      📝 System prompt driven  
-      🍎 Auto-generated logic  
-      🏃‍♂️ Agent-based tasks  
-      ⚡ Prompt-to-function
+      ✅ Multi-agent collaboration  
+      ✅ Rapid MVP development  
+      ✅ Real-time calorie tracking  
+      ✅ Auto-populated food data  
+      ✅ Live bug fixing
 toc: true
 toc_label: "Project Guide"
-toc_icon: "dumbbell"
+toc_icon: "users"
 author_profile: true
 classes: wide
 ---
@@ -39,32 +39,28 @@ classes: wide
 
 ## 🚀 What This Project Does
 
-CalorieLedger showcases **no-code application development** using CrewAI's system prompt architecture. This fitness tracker was built entirely through comprehensive prompts and agent requirements - **no manual coding required**:
+This project demonstrates **AI-powered rapid prototyping** using CrewAI's multi-agent system. Built CalorieLedger, a complete fitness tracking app, in just 2 hours:
 
-- **Comprehensive system prompts** define all functionality requirements
-- **Agent instructions** generate the necessary code automatically  
-- **Task specifications** handle complex logic without programming
-- **Requirement-driven development** turns descriptions into working features
-
-The resulting app provides full fitness tracking capabilities - daily calorie targets, food/workout logging, real-time progress monitoring - all generated from intelligent prompt engineering.
+- **Set daily calorie targets** (2000 kcal default)
+- **Log food and exercises** with auto-populated calorie data  
+- **Track net calories** with real-time updates
+- **Monitor progress** against daily goals
 
 {: .notice--success}
-**💡 No-Code Revolution**: This entire functional app was built using only system prompts and agent requirements - zero lines of manual code written!
+**💡 Key Innovation**: Four specialized AI agents collaborated autonomously to build, test, and debug the entire application - no manual coding required!
 
-## 🏗️ Prompt-Driven Architecture
-
-The application was built entirely through system prompts that define agent behaviors and generate all functionality:
+## 🏗️ Multi-Agent Architecture
 
 <div class="feature__wrapper">
   <div class="feature__item">
     <div class="archive__item">
       <div class="archive__item-teaser">
-        <i class="fas fa-file-alt fa-3x" style="color: #3498db;"></i>
+        <i class="fas fa-project-diagram fa-2x" style="color: #3498db;"></i>
       </div>
       <div class="archive__item-body">
-        <h2 class="archive__item-title">System Prompts</h2>
+        <h2 class="archive__item-title">Engineering Lead</h2>
         <div class="archive__item-excerpt">
-          <p>Comprehensive instructions → Define agent roles → Specify functionalities → Generate implementation code</p>
+          <p>Project coordination, architecture decisions, task distribution</p>
         </div>
       </div>
     </div>
@@ -73,113 +69,78 @@ The application was built entirely through system prompts that define agent beha
   <div class="feature__item">
     <div class="archive__item">
       <div class="archive__item-teaser">
-        <i class="fas fa-cogs fa-3x" style="color: "#e74c3c"></i>
+        <i class="fas fa-server fa-2x" style="color: #e74c3c;"></i>
       </div>
       <div class="archive__item-body">
-        <h2 class="archive__item-title">Agent Requirements</h2>
+        <h2 class="archive__item-title">Backend Developer</h2>
         <div class="archive__item-excerpt">
-          <p>Task specifications → Behavioral guidelines → Output requirements → Auto-generated logic flows</p>
+          <p>Data management, calorie calculations, storage logic</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <i class="fas fa-paint-brush fa-2x" style="color: #f39c12;"></i>
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">Frontend Developer</h2>
+        <div class="archive__item-excerpt">
+          <p>User interface, interactions, responsive design</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <i class="fas fa-bug fa-2x" style="color: #27ae60;"></i>
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">Test Engineer</h2>
+        <div class="archive__item-excerpt">
+          <p>Quality assurance, bug identification, testing protocols</p>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-## ⚡ Key Capabilities
+## ⚡ Development Highlights
 
-### 🤖 Prompt Engineering Approach
-Instead of writing code, the entire application was built through strategic prompt design:
+### 🤖 Autonomous Collaboration
+Agents worked together to solve real challenges:
+- **Calorie auto-population bugs** - Backend and Test Engineer collaborated on fixes
+- **Exercise logging issues** - Frontend Developer rebuilt UI components  
+- **Real-time updates** - Engineering Lead coordinated cross-team solutions
 
-```text
-System Prompt Example:
-"Create a food tracking agent that can:
-- Accept food item inputs from users
-- Automatically lookup calorie values from preset database
-- Calculate running daily totals
-- Update net calorie calculations in real-time
-- Handle edge cases for unknown foods gracefully"
-
-→ CrewAI generates all necessary code automatically
-```
-
-### 📝 Requirements-Driven Development
-Complex functionality emerged from detailed requirement specifications:
-- **Task definitions** replaced manual coding logic
-- **Behavioral specifications** guided agent interactions  
-- **Output requirements** ensured proper data formatting
-- **Error handling instructions** created robust functionality
-
-### 🎯 Generated App Capabilities
-The prompt-driven approach automatically created:
-- Smart calorie management with running totals
-- Real-time progress tracking with visual indicators
-- Built-in food database with auto-population
-- Exercise logging with calorie burn calculations
-
-## 🛠️ Implementation Deep Dive
-
-### CrewAI Agent System Prompts
-
-| Agent Role | System Prompt Focus | Generated Functionality |
-|------------|-------------------|----------------------|
-| **Food Logger** | "Handle food intake tracking with automatic calorie lookup" | Database queries, calculations, validation |
-| **Exercise Tracker** | "Monitor workouts and calculate calorie expenditure" | Activity logging, burn calculations, updates |
-| **Progress Monitor** | "Provide real-time status updates on daily goals" | Net calculations, visual indicators, alerts |
-| **Data Manager** | "Handle all data persistence and retrieval operations" | Storage logic, session management, data integrity |
-
-### No-Code Development Benefits
-CrewAI's prompt-driven approach enabled:
-- **Zero manual coding** - all logic generated from requirements
-- **Comprehensive system prompts** that specify complete behaviors
-- **Automatic error handling** built into agent instructions
-- **Modular prompt design** for easy functionality updates
+### 📊 System Prompts → Working App
+Used custom system prompts to generate `task.yml` configuration that automatically distributed work across specialized agents - from requirements to deployment.
 
 {: .notice--info}
-**🔧 Development Note**: Every piece of functionality was created through comprehensive system prompts and agent requirements - not a single line of code was manually written!
+**🔧 Technical Achievement**: Complete development cycle documented live - including debugging sessions, agent discussions, and iterative improvements.
 
-## 🐛 Challenges & Solutions
+## 📈 Key Results
 
-### Common Prompt Engineering Issues
+| Metric | Achievement |
+|--------|-------------|
+| **Development Time** | 2-3 hours total |
+| **Code Written** | 0 lines manually |
+| **Bugs Fixed** | Multiple, live on camera |
+| **Agents Coordinated** | 4 specialized roles |
+| **MVP Status** | Fully functional |
 
-#### Calorie Auto-Population Bug
-**Problem**: Initial prompts weren't specific enough about database lookup behavior
-**Solution**: Enhanced agent instructions with detailed database interaction requirements
+## 🚀 What This Proves
 
-#### Exercise Log Persistence  
-**Problem**: Storage prompts lacked session management specifications
-**Solution**: Added comprehensive data persistence requirements to system prompts
+This project showcases the future of software development:
 
-#### Real-time Updates
-**Problem**: Agent coordination prompts didn't specify inter-agent communication protocols
-**Solution**: Refined prompt instructions for automatic agent synchronization
-
-## 📈 MVP Results & Performance
-
-### What Works Great
-- **Lightning-fast logging** of both food and exercise
-- **Accurate calorie calculations** with minimal user input
-- **Clear visual feedback** on daily progress
-- **Reliable data persistence** across app sessions
-
-### Areas for Enhancement
-- **Enhanced logging history** with detailed meal/workout records
-- **Smarter food suggestions** based on user patterns
-- **Goal adjustment recommendations** based on progress trends
-- **Social features** for accountability and motivation
-
-## 🚀 Technical Learnings
-
-### CrewAI Prompt Engineering Advantages
-1. **No-Code Development**: Complete apps from requirements and prompts alone
-2. **Comprehensive Instructions**: System prompts handle complex logic automatically
-3. **Requirement-Driven**: Detailed specifications become functional code
-4. **Rapid Iteration**: Prompt modifications instantly update functionality
-
-### Development Insights
-- System prompts must be comprehensive and specific for best results
-- Agent coordination happens automatically with proper prompt design
-- Complex functionality emerges from well-structured requirements  
-- Prompt engineering replaces traditional software development cycles
+- **Speed**: Ideas → Working apps in hours, not weeks
+- **Quality**: AI agents catch and fix bugs autonomously  
+- **Collaboration**: Multi-agent systems work better than single AI
+- **Scalability**: Framework applies to any development project
 
 ## 🔗 Resources & Next Steps
 
@@ -197,11 +158,9 @@ CrewAI's prompt-driven approach enabled:
 
 ---
 
-### Want to Build Your Own No-Code CrewAI App?
+### Ready to Try Multi-Agent Development?
 
-This project demonstrates how comprehensive system prompts and agent requirements can replace traditional coding entirely. Whether you need fitness tracking, productivity apps, or any multi-agent system, the prompt-driven development approach shown here can generate functional applications from pure requirements.
-
-**Interested in no-code AI development?** Check out my other prompt-driven projects or reach out to discuss how system prompt engineering could work for your next application!
+This project demonstrates how CrewAI can revolutionize rapid prototyping. Whether you need MVPs, proof-of-concepts, or full applications, this multi-agent approach delivers production-ready results in record time.
 
 {: .notice--success}
-**💬 Questions?** Feel free to reach out if you'd like to discuss prompt engineering strategies, no-code development approaches, or how system prompt architecture might work for your next project!
+**💬 Questions?** Curious about implementing CrewAI for your projects? Let's discuss how multi-agent development could accelerate your next build!
