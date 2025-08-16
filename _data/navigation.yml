@@ -1,8 +1,8 @@
 main:
+  - title: "Who I Am"
+    url: /who-i-am/
   - title: "Field Notes"
     url: /field-notes/
-  - title: "Who I Am"
-    url: /Who-I-AM/
   - title: "What I have Built"
     url: /what-I-have-built/
   - title: "Beyond Code"
