@@ -3,6 +3,13 @@ title: "Digital Leadership Certificate"
 date: 2024-02-01
 last_modified_at: 2024-02-01
 excerpt: "Leading digital transformation in complex organizational environments requires strategic thinking, systems perspective, and entrepreneurial mindset. This Cornell University executive program provided deep insights into digital leadership frameworks, innovation management, and sustainable transformation strategies."
+layout: single
+author_profile: true
+header:
+  teaser: /assets/certificates/cornell-digital-leadership-certificate.jpg
+  overlay_image: /assets/certificates/cornell-digital-leadership-certificate.jpg
+  overlay_filter: 0.45
+  caption: "Cornell University Executive Certificate"
 categories:
   - certifications
   - professional-development
@@ -19,7 +26,8 @@ tags:
 toc: true
 toc_label: "Certification Journey"
 toc_icon: "certificate"
-author_profile: true
+linkedin_url: "https://www.linkedin.com/pulse/unlocking-digital-leadership-my-journey-through-cornell-rashid-sclee/?trackingId=bTiNt%2BWrcp9WeCjdey%2FzhQ%3D%3D"
+
 credential_info:
   issuer: "Cornell University"
   date: 2024-02-01
@@ -30,19 +38,17 @@ credential_info:
 ![Cornell Digital Leadership Certificate](/assets/certificates/cornell-digital-leadership-certificate.jpg)
 {: .align-center}
 
-[← Back to All Certifications](/certifications/)
-{: .text-center}
+[← Back to All Certifications](/certifications/){: .text-center}
 
-# Digital Leadership Certificate
-
-![Cornell Digital Leadership Certificate](/assets/images/certificates/cornell-digital-leadership-certificate.jpg){: .certificate-image}
-*Certificate Image - Click to enlarge*
+*Originally published on [LinkedIn]({{ page.linkedin_url }}) on {{ page.date | date: "%B %d, %Y" }}*
+{: .notice--info}
 
 ## Certification Overview
 
-**Issued by:** Cornell University  
-**Date Achieved:** {{ page.date | date: "%B %Y" }}  
-**Status:** {{ page.status }}  
+**Issued by:** {{ page.credential_info.issuer }}  
+**Date Achieved:** {{ page.credential_info.date | date: "%B %Y" }}  
+**Status:** {{ page.credential_info.status }}  
+**Level:** {{ page.credential_info.level }}  
 **Validity:** No Expiration
 
 ## About This Certification
@@ -77,11 +83,11 @@ The Digital Leadership Certificate from Cornell University is a comprehensive ex
 
 ## Key Learning Outcomes
 
-- **Strategic Digital Assessment**: Conduct comprehensive audits to identify gaps between current and ideal digital adoption states
-- **Innovation Framework**: Develop systematic approaches to implementing emerging technologies and automation solutions
-- **Complex Problem Resolution**: Apply systems thinking principles to navigate interconnected organizational and technological challenges
-- **Change Leadership**: Design and execute strategies for successful organizational transformation and technology adoption
-- **Adaptive Decision-Making**: Leverage data-driven insights and mental model mapping to guide strategic initiatives
+- **Strategic Digital Assessment:** Conduct comprehensive audits to identify gaps between current and ideal digital adoption states  
+- **Innovation Framework:** Develop systematic approaches to implementing emerging technologies and automation solutions  
+- **Complex Problem Resolution:** Apply systems thinking principles to navigate interconnected organizational and technological challenges  
+- **Change Leadership:** Design and execute strategies for successful organizational transformation and technology adoption  
+- **Adaptive Decision-Making:** Leverage data-driven insights and mental model mapping to guide strategic initiatives
 
 ## Course Components Completed
 
@@ -109,25 +115,25 @@ This certification enables me to:
 
 ## My Learning Journey & Insights
 
-**Read My Full Experience**: [Unlocking Digital Leadership: My Journey Through Cornell University's Digital Leadership Program](https://www.linkedin.com/pulse/unlocking-digital-leadership-my-journey-through-cornell-rashid-sclee/?trackingId=hSW26KbRizQEZEF5qCVpgw%3D%3D)
+**Read My Full Experience**: [Unlocking Digital Leadership: My Journey Through Cornell University's Digital Leadership Program]({{ page.linkedin_url }})
 
 My experience in this program reinforced the critical importance of continuous learning in rapidly evolving digital landscapes. Through hands-on projects, I developed practical expertise in:
 
-- **Digital Maturity Assessment**: Creating systematic approaches to evaluate and enhance organizational digital adoption
-- **AI-Driven Innovation**: Proposing and implementing automated workflows and intelligent decision-making models in healthcare technology
-- **Systems Problem-Solving**: Analyzing real-world challenges using mental model frameworks to address complex, interconnected issues
-- **Change Leadership**: Evaluating team responses to organizational changes and refining leadership strategies for successful transformation
+- **Digital Maturity Assessment:** Creating systematic approaches to evaluate and enhance organizational digital adoption  
+- **AI-Driven Innovation:** Proposing and implementing automated workflows and intelligent decision-making models in healthcare technology  
+- **Systems Problem-Solving:** Analyzing real-world challenges using mental model frameworks to address complex, interconnected issues  
+- **Change Leadership:** Evaluating team responses to organizational changes and refining leadership strategies for successful transformation
 
 ## Related Skills
 
-- Digital Transformation Strategy
-- Systems Thinking and Mental Model Mapping
-- Entrepreneurial Innovation Frameworks
-- Adaptive Leadership and Team Building
-- Complex Problem-Solving Methodologies
-- Change Management and Organizational Development
-- AI-Driven Automation Strategy
-- Low/No-Code Solution Implementation
+- Digital Transformation Strategy  
+- Systems Thinking and Mental Model Mapping  
+- Entrepreneurial Innovation Frameworks  
+- Adaptive Leadership and Team Building  
+- Complex Problem-Solving Methodologies  
+- Change Management and Organizational Development  
+- AI-Driven Automation Strategy  
+- Low/No-Code Solution Implementation  
 
 ---
 
