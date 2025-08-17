@@ -1,34 +1,43 @@
----
----
-
-@import "minimal-mistakes/skins/air"; /* match your skin */
-@import "minimal-mistakes";
-@import "nav-overrides"; /* our custom rules */
-
-/* Wrap + center the menu and keep overflow items visible on desktop */
+/* Custom navigation styling for two-row layout */
 @media (min-width: 768px) {
-  .masthead .inner-wrap { justify-content: center; }
-  .greedy-nav { flex-wrap: wrap; justify-content: center; }
-  .greedy-nav .visible-links { flex-wrap: wrap; justify-content: center; }
+  .masthead .inner-wrap {
+    max-width: 100%;
+    padding: 1rem;
+  }
   
+  .greedy-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: none;
+  }
+  
+  .greedy-nav .visible-links,
   .greedy-nav .hidden-links {
     display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
     position: static !important;
     visibility: visible !important;
     opacity: 1 !important;
     transform: none !important;
     background: transparent !important;
-    border: 0 !important;
+    border: none !important;
     box-shadow: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .greedy-nav .hidden-links li {
+    display: inline-flex !important;
+  }
+  
+  .greedy-nav .greedy-nav__toggle {
+    display: none !important;
+  }
+  
+  /* Adjust link spacing */
+  .greedy-nav a {
+    padding: 0.5rem 0.8rem;
+    margin: 0.2rem;
   }
 }
-
-.greedy-nav .hidden-links > li { display: inline-flex !important; }
-
-/* hide the "More" toggle on desktop */
-.greedy-nav .greedy-nav__toggle { display: none !important; }
-
-/* slightly tighter spacing so more fits */
-.greedy-nav a { padding: .4rem .6rem; }
