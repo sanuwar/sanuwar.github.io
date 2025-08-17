@@ -1,12 +1,31 @@
 ---
 ---
-
-@import "minimal-mistakes/skins/air";
+// Load Minimal Mistakes skin + core
+@import "minimal-mistakes/skins/air";   // or your chosen skin
 @import "minimal-mistakes";
 
-/* Wrap masthead links on desktop; hide overflow bucket */
+/* Option B: wrap all masthead links on desktop/tablet and SHOW overflow items */
 @media (min-width: 768px) {
+  /* 1) Let visible links wrap to multiple rows */
   .greedy-nav .visible-links { flex-wrap: wrap; }
-  .greedy-nav .hidden-links { display: none !important; }
+
+  /* 2) Make the overflow list visible and inline (not a dropdown) */
+  .greedy-nav .hidden-links {
+    display: flex !important;
+    position: static !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .greedy-nav .hidden-links li { display: inline-flex; }
+
+  /* 3) Hide the “More” toggle on desktop (mobile keeps working) */
+  .greedy-nav .greedy-nav__toggle { display: none !important; }
+
+  /* 4) Tighter spacing so more items fit per row */
   .greedy-nav a { padding: .4rem .6rem; }
 }
