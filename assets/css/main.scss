@@ -1,43 +1,40 @@
-/* Custom navigation styling for two-row layout */
-@media (min-width: 768px) {
-  .masthead .inner-wrap {
-    max-width: 100%;
-    padding: 1rem;
-  }
-  
-  .greedy-nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: none;
-  }
-  
-  .greedy-nav .visible-links,
-  .greedy-nav .hidden-links {
-    display: flex !important;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: static !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    transform: none !important;
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .greedy-nav .hidden-links li {
-    display: inline-flex !important;
-  }
-  
-  .greedy-nav .greedy-nav__toggle {
-    display: none !important;
-  }
-  
-  /* Adjust link spacing */
-  .greedy-nav a {
-    padding: 0.5rem 0.8rem;
-    margin: 0.2rem;
-  }
+/* Force show all navigation items - stronger selectors */
+.masthead .greedy-nav {
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
+.masthead .greedy-nav .visible-links {
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.masthead .greedy-nav .hidden-links {
+  display: flex !important;
+  position: static !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: none !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  flex-wrap: wrap !important;
+  width: 100% !important;
+}
+
+.masthead .greedy-nav .hidden-links li {
+  display: inline-flex !important;
+}
+
+.masthead .greedy-nav .greedy-nav__toggle {
+  display: none !important;
+}
+
+/* Make links smaller to fit more */
+.masthead .greedy-nav a {
+  padding: 0.3rem 0.5rem !important;
+  font-size: 0.9em;
 }
