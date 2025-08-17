@@ -220,3 +220,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Add custom JavaScript
+footer_scripts:
+  - /assets/js/fix-navigation.js
