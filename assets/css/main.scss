@@ -1,13 +1,16 @@
-/* Wrap nav and center EVERYTHING on desktop/tablet */
-@media (min-width: 768px) {
-  /* center the whole nav block inside the masthead */
-  .masthead__inner-wrap { justify-content: center; }
+---
+---
 
-  /* allow wrapping + center the lists */
+@import "minimal-mistakes/skins/air"; /* match your skin */
+@import "minimal-mistakes";
+@import "nav-overrides"; /* our custom rules */
+
+/* Wrap + center the menu and keep overflow items visible on desktop */
+@media (min-width: 768px) {
+  .masthead .inner-wrap { justify-content: center; }
   .greedy-nav { flex-wrap: wrap; justify-content: center; }
   .greedy-nav .visible-links { flex-wrap: wrap; justify-content: center; }
-
-  /* show overflow items inline (remove dropdown styling) */
+  
   .greedy-nav .hidden-links {
     display: flex !important;
     position: static !important;
@@ -15,18 +18,17 @@
     opacity: 1 !important;
     transform: none !important;
     background: transparent !important;
+    border: 0 !important;
     box-shadow: none !important;
     padding: 0 !important;
     margin: 0 !important;
   }
-  @supports (display: contents) {
-    .greedy-nav .hidden-links { display: contents !important; }
-  }
-  .greedy-nav .hidden-links li { display: inline-flex; }
-
-  /* hide the "More" toggle on desktop */
-  .greedy-nav .greedy-nav__toggle { display: none !important; }
-
-  /* slightly tighter spacing so more fits per row */
-  .greedy-nav a { padding: .4rem .6rem; }
 }
+
+.greedy-nav .hidden-links > li { display: inline-flex !important; }
+
+/* hide the "More" toggle on desktop */
+.greedy-nav .greedy-nav__toggle { display: none !important; }
+
+/* slightly tighter spacing so more fits */
+.greedy-nav a { padding: .4rem .6rem; }
