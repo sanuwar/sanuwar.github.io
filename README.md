@@ -11,12 +11,12 @@ Contains basic configuration to get you a site with:
 - Paginated home page.
 - Archive pages for posts grouped by year, category, and tag.
 - Sample about page.
-- Sample 404 page.
-- Site wide search.
+
 
 Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
 
 ---
+
 
 ## Troubleshooting
 
