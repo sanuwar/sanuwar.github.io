@@ -2,7 +2,7 @@
 title: "Professional Certifications"
 layout: collection
 permalink: /certifications/
-collection: certification
+collection: certifications
 entries_layout: list
 sort_by: date
 sort_order: reverse
