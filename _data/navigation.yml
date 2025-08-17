@@ -5,6 +5,8 @@ main:
     url: /field-notes/
   - title: "What I have Built"
     url: /what-I-have-built/
+  - title: "Professional Development"
+    url: /certifications/
   - title: "Beyond Code"
     url: /hobbies/
   - title: "Let's Talk"
