@@ -1,31 +1,32 @@
----
----
-// Load Minimal Mistakes skin + core
-@import "minimal-mistakes/skins/air";   // or your chosen skin
-@import "minimal-mistakes";
-
-/* Option B: wrap all masthead links on desktop/tablet and SHOW overflow items */
+/* Wrap nav and center EVERYTHING on desktop/tablet */
 @media (min-width: 768px) {
-  /* 1) Let visible links wrap to multiple rows */
-  .greedy-nav .visible-links { flex-wrap: wrap; }
+  /* center the whole nav block inside the masthead */
+  .masthead__inner-wrap { justify-content: center; }
 
-  /* 2) Make the overflow list visible and inline (not a dropdown) */
+  /* allow wrapping + center the lists */
+  .greedy-nav { flex-wrap: wrap; justify-content: center; }
+  .greedy-nav .visible-links { flex-wrap: wrap; justify-content: center; }
+
+  /* show overflow items inline (remove dropdown styling) */
   .greedy-nav .hidden-links {
     display: flex !important;
     position: static !important;
     visibility: visible !important;
     opacity: 1 !important;
     transform: none !important;
-    box-shadow: none !important;
     background: transparent !important;
+    box-shadow: none !important;
     padding: 0 !important;
     margin: 0 !important;
   }
+  @supports (display: contents) {
+    .greedy-nav .hidden-links { display: contents !important; }
+  }
   .greedy-nav .hidden-links li { display: inline-flex; }
 
-  /* 3) Hide the “More” toggle on desktop (mobile keeps working) */
+  /* hide the "More" toggle on desktop */
   .greedy-nav .greedy-nav__toggle { display: none !important; }
 
-  /* 4) Tighter spacing so more items fit per row */
+  /* slightly tighter spacing so more fits per row */
   .greedy-nav a { padding: .4rem .6rem; }
 }
