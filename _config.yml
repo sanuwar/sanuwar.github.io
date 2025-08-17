@@ -156,6 +156,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      comments: true
       share: true
       related: true
   - scope:
@@ -205,6 +206,13 @@ defaults:
       type: what-I-have-built
     values:
         author_profile: true
+      
+  # Certifications collection
+  - scope:
+      path: "_certifications"
+      type: certifications
+    values:
+      author_profile: true
       
 category_archive:
   type: liquid
