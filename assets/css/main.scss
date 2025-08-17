@@ -1,0 +1,12 @@
+---
+---
+
+@import "minimal-mistakes/skins/air";
+@import "minimal-mistakes";
+
+/* Wrap masthead links on desktop; hide overflow bucket */
+@media (min-width: 768px) {
+  .greedy-nav .visible-links { flex-wrap: wrap; }
+  .greedy-nav .hidden-links { display: none !important; }
+  .greedy-nav a { padding: .4rem .6rem; }
+}

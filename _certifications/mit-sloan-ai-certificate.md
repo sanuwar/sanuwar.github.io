@@ -1,10 +1,3 @@
-# MIT Sloan + CSAIL: Artificial Intelligence - Implications for Business Strategy
-
-## Executive Program Completion Certificate
-
-![MIT Sloan AI Certificate](../assets/certificates/mit-sloan-ai-certificate.png)
-
----
 title: "MIT Sloan + CSAIL: Artificial Intelligence - Implications for Business Strategy"
 date: 2025-04-27
 last_modified_at: 2025-04-27
