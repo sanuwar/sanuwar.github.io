@@ -1,19 +1,42 @@
 ---
 title: "Certified SAFe® 6 Practitioner"
-issuer: "Scaled Agile, Inc."
-credential_id: "53395495-2447"
-expiry_date: 2026-07-12
-status: "Active"
-badge_url: "/assets/images/badges/safe-practitioner.png"
-verification_url: "https://www.scaledagile.com/community/credential-lookup/"
-categories: ["Agile", "SAFe", "Enterprise"]
-level: "Practitioner"
+date: 2024-07-12
+last_modified_at: 2024-07-12
+excerpt: "Scaling Agile practices across enterprise environments requires more than theory—it demands practical expertise in leading transformation. My SAFe® 6 Practitioner certification journey provided deep insights into Lean-Agile principles, PI Planning, and delivering value at scale in complex organizational structures."
+
+categories:
+  - certifications
+  - professional-development
+tags:
+  - SAFe
+  - Agile
+  - Enterprise
+  - Lean-Agile
+  - PI-Planning
+  - Scrum-Master
+  - Product-Owner
+  - Team-Leadership
+  - Agile-Transformation
+toc: true
+toc_label: "Certification Journey"
+toc_icon: "certificate"
+author_profile: true
+credential_info:
+  issuer: "Scaled Agile, Inc."
+  credential_id: "53395495-2447"
+  expiry_date: 2026-07-12
+  status: "Active"
+  level: "Practitioner"
 ---
 
-# Certified SAFe® 6 Practitioner
+<img src="/assets/badge/safe-practitioner.png" alt="Certified SAFe® 6 Practitioner Badge" style="float: right; max-width: 150px; margin: 0 0 1em 1em;">
 
-![SAFe Practitioner Certificate](/assets/images/certificates/safe-practitioner-certificate.jpg){: .certificate-image}
-*Certificate Image - Click to enlarge*
+![SAFe Practitioner Certificate](/assets/certificates/safe-practitioner-certificate.jpg)
+{: .align-center}
+
+[← Back to All Certifications](/certifications/)
+{: .text-center}
+
 
 ## Certification Overview
 
@@ -70,9 +93,6 @@ This certification enables me to:
 - Collaborate across teams and organizational boundaries
 - Drive continuous improvement through lean-agile practices
 
-## Verification
-
-[Verify this certification →]({{ page.verification_url }})
 
 ## Related Skills
 
@@ -88,5 +108,3 @@ This certification enables me to:
 ---
 
 *This certification demonstrates my foundational expertise in the Scaled Agile Framework and my ability to contribute effectively to enterprise-scale agile transformations.*
-
-[← Back to All Certifications](/certifications/)

@@ -3,7 +3,7 @@ title: "Professional Certifications"
 layout: collection
 permalink: /certifications/
 collection: certification
-entries_layout: grid
+entries_layout: list
 sort_by: date
 sort_order: reverse
 author_profile: true

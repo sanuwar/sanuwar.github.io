@@ -1,19 +1,40 @@
 ---
 title: "Certified SAFe® 6 DevOps Practitioner"
-issuer: "Scaled Agile, Inc."
-credential_id: "57382753-8023"
-expiry_date: 2026-06-17
-status: "Active"
-badge_url: "/assets/images/badges/safe-devops-practitioner.png"
-verification_url: "https://www.scaledagile.com/community/credential-lookup/"
-categories: ["DevOps", "Agile", "Enterprise"]
-level: "Practitioner"
+date: 2024-06-17
+last_modified_at: 2024-06-17
+excerpt: "Bridging development and operations in enterprise environments requires deep understanding of continuous delivery pipelines, automation, and cultural transformation. My SAFe® 6 DevOps Practitioner certification validates expertise in implementing DevOps practices within the Scaled Agile Framework for seamless value delivery."
+categories:
+  - certifications
+  - professional-development
+tags:
+  - SAFe
+  - DevOps
+  - Agile
+  - Enterprise
+  - Continuous-Delivery
+  - Automation
+  - Pipeline-Management
+  - Infrastructure-as-Code
+  - Monitoring-and-Observability
+toc: true
+toc_label: "Certification Journey"
+toc_icon: "certificate"
+author_profile: true
+credential_info:
+  issuer: "Scaled Agile, Inc."
+  credential_id: "57382753-8023"
+  expiry_date: 2026-06-17
+  status: "Active"
+  level: "Practitioner"
 ---
 
-# Certified SAFe® 6 DevOps Practitioner
+<img src="/assets/badges/safe-devops-practitioner.png" alt="Certified SAFe® 6 DevOps Practitioner Badge" style="float: right; max-width: 150px; margin: 0 0 1em 1em;">
 
-![SAFe DevOps Practitioner Certificate](/assets/images/certificates/safe-devops-certificate.jpg){: .certificate-image}
-*Certificate Image - Click to enlarge*
+![SAFe DevOps Certificate](/assets/certificates/safe-devops-certificate.jpg)
+{: .align-center}
+
+[← Back to All Certifications](/certifications/)
+{: .text-center}
 
 ## Certification Overview
 
@@ -65,9 +86,6 @@ This certification enables me to:
 - Mentor teams in adopting modern development and deployment practices
 - Drive continuous improvement through data-driven decision making
 
-## Verification
-
-[Verify this certification →]({{ page.verification_url }})
 
 ## Related Skills
 

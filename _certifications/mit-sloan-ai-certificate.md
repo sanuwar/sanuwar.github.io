@@ -5,16 +5,35 @@
 ![MIT Sloan AI Certificate](../assets/certificates/mit-sloan-ai-certificate.png)
 
 ---
-
-## Program Overview
-
-**Institution:** Massachusetts Institute of Technology - Sloan School of Management  
-**Program:** Artificial Intelligence: Implications for Business Strategy  
-**Completion Date:** April 2025  
-**Certificate Holder:** Sanuwar Rashid  
-**Certificate ID:** 0496877
-
+title: "MIT Sloan + CSAIL: Artificial Intelligence - Implications for Business Strategy"
+date: 2025-04-27
+last_modified_at: 2025-04-27
+excerpt: "Strategic AI leadership program covering six modules: from business differentiation to ethical implementation. A comprehensive journey through ML, Generative AI, robotics, ethics, and strategic roadmapping for organizational transformation."
+header:
+  teaser: /assets/certificates/mit-sloan-ai-certificate.png
+  overlay_image: /assets/certificates/mit-sloan-ai-certificate.png
+  overlay_filter: 0.4
+  caption: "MIT Sloan Executive Education Certificate"
+categories:
+  - certification
+  - professional-development
+tags:
+  - MIT-Sloan
+  - Artificial-Intelligence
+  - Strategic-AI
+  - Executive-Education
+  - Machine-Learning
+  - Generative-AI
+  - Ethical-AI
+  - Business-Strategy
+toc: true
+toc_label: "Certificate Details"
+toc_icon: "certificate"
+author_profile: true
+linkedin_url: "https://www.linkedin.com/pulse/from-curiosity-strategy-my-strategic-evolution-through-sanuwar-rashid-ezdse/?trackingId=za6aoxg3m7TsdwdDvhuwpg%3D%3D"
 ---
+
+[← Back to Professional Development](/certification/){: .btn .btn--primary}
 
 ## Program Highlights
 

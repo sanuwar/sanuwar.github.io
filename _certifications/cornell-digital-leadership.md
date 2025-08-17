@@ -1,12 +1,37 @@
 ---
 title: "Digital Leadership Certificate"
 date: 2024-02-01
-issuer: "Cornell University"
-status: "Active"
-verification_url: "https://ecornell.cornell.edu/certificates/leadership-and-strategic-management/digital-leadership/"
-categories: ["Digital Leadership", "Systems Thinking", "Digital Transformation", "Entrepreneurship"]
-level: "Executive"
+last_modified_at: 2024-02-01
+excerpt: "Leading digital transformation in complex organizational environments requires strategic thinking, systems perspective, and entrepreneurial mindset. This Cornell University executive program provided deep insights into digital leadership frameworks, innovation management, and sustainable transformation strategies."
+categories:
+  - certifications
+  - professional-development
+tags:
+  - Digital-Leadership
+  - Systems-Thinking
+  - Digital-Transformation
+  - Entrepreneurship
+  - Strategic-Management
+  - Innovation-Management
+  - Organizational-Change
+  - Executive-Education
+  - Cornell-University
+toc: true
+toc_label: "Certification Journey"
+toc_icon: "certificate"
+author_profile: true
+credential_info:
+  issuer: "Cornell University"
+  date: 2024-02-01
+  status: "Active"
+  level: "Executive"
 ---
+
+![Cornell Digital Leadership Certificate](/assets/certificates/cornell-digital-leadership-certificate.jpg)
+{: .align-center}
+
+[← Back to All Certifications](/certifications/)
+{: .text-center}
 
 # Digital Leadership Certificate
 
@@ -108,4 +133,3 @@ My experience in this program reinforced the critical importance of continuous l
 
 *This certification demonstrates my expertise in digital leadership and my ability to drive organizational transformation through strategic thinking, systems approaches, and adaptive leadership in complex technological environments.*
 
-[← Back to All Certifications](/certifications/)

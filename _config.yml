@@ -39,7 +39,7 @@ collections:
   field-notes:
     output: true
     permalink: /:collection/:name/
-  certification:
+  certifications:
     output: true
     permalink: /:collection/:name/
 

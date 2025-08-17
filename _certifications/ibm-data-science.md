@@ -1,19 +1,37 @@
 ---
 title: "IBM Data Science Professional Certificate"
 date: 2024-09-17
-issuer: "IBM via Coursera"
-credential_id: "78ZO3Y2ESZXA"
-status: "Active"
-
-verification_url: "https://coursera.org/verify/professional-cert/78ZO3Y2ESZXA"
-categories: ["Data Science", "Machine Learning", "Python", "AI"]
-level: "Professional"
+last_modified_at: 2024-09-17
+excerpt: "Mastering the full data science workflow from data collection to machine learning deployment. This comprehensive IBM Professional Certificate program provided hands-on experience with Python, SQL, data visualization, and machine learning algorithms to solve real-world business problems."
+categories:
+  - certifications
+  - professional-development
+tags:
+  - Data-Science
+  - Machine-Learning
+  - Python
+  - AI
+  - SQL
+  - Data-Visualization
+  - Jupyter-Notebooks
+  - Pandas
+  - Scikit-learn
+  - IBM-Watson
+toc: true
+toc_label: "Certification Journey"
+toc_icon: "certificate"
+author_profile: true
+credential_info:
+  issuer: "IBM via Coursera"
+  credential_id: "78ZO3Y2ESZXA"
+  date: 2024-09-17
+  status: "Active"
+  level: "Professional"
 ---
 
-# IBM Data Science Professional Certificate
+![IBM Data Science Certificate](/assets/certificates/ibm-data-science-certificate.jpg)
+{: .align-center}
 
-![IBM Data Science Certificate](/assets/images/certificates/ibm-data-science-certificate.jpg){: .certificate-image}
-*Certificate Image - Click to enlarge*
 
 ## Certification Overview
 
@@ -111,3 +129,4 @@ This certification enables me to:
 *This certification demonstrates my comprehensive expertise in data science and my ability to deliver end-to-end analytics solutions for complex business challenges.*
 
 [← Back to All Certifications](/certifications/)
+{: .text-center}
