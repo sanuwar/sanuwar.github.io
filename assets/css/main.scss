@@ -1,40 +1,13 @@
-/* Force show all navigation items - stronger selectors */
-.masthead .greedy-nav {
-  flex-wrap: wrap !important;
-  justify-content: center !important;
-}
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
 
-.masthead .greedy-nav .visible-links {
-  flex-wrap: wrap !important;
-  justify-content: center !important;
-  width: 100% !important;
-}
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
 
-.masthead .greedy-nav .hidden-links {
-  display: flex !important;
-  position: static !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  transform: none !important;
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  flex-wrap: wrap !important;
-  width: 100% !important;
-}
-
-.masthead .greedy-nav .hidden-links li {
-  display: inline-flex !important;
-}
-
-.masthead .greedy-nav .greedy-nav__toggle {
-  display: none !important;
-}
-
-/* Make links smaller to fit more */
-.masthead .greedy-nav a {
-  padding: 0.3rem 0.5rem !important;
-  font-size: 0.9em;
+// Custom author avatar sizing
+.author__avatar img {
+  max-width: 180px;
+  width: 180px;
+  border-radius: 50%;
 }
