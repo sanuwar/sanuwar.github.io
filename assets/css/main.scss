@@ -5,9 +5,38 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// Custom author avatar sizing
+/* Responsive avatar that won’t crowd the motto */
 .author__avatar img {
-  max-width: 180px;
-  width: 180px;
+  width: clamp(80px, 12vw, 120px); /* min 80px, scales with viewport, max 120px */
+  height: auto;
   border-radius: 50%;
+  max-width: none; /* let clamp control size */
+}
+
+/* If you want stricter control by breakpoint instead of clamp: */
+@media (max-width: 480px) {
+  .author__avatar img { width: 80px !important; }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .author__avatar img { width: 100px; }
+}
+@media (min-width: 1025px) {
+  .author__avatar img { width: 120px; }
+}
+
+/* Keep the top navigation visible while scrolling */
+.masthead {
+  position: sticky;         /* stays within normal flow, no layout jump */
+  top: 0;
+  z-index: 1200;            /* above content/toc */
+  background: #fff;         /* solid background for readability */
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+/* Nice-to-have: headings don’t hide under the sticky masthead on anchor jumps */
+html { scroll-padding-top: 72px; }     /* tweak if your masthead is taller */
+
+/* If you use a very tall masthead on mobile, tighten the padding there */
+@media (max-width: 480px) {
+  html { scroll-padding-top: 60px; }
 }
