@@ -41,5 +41,27 @@ html { scroll-padding-top: 72px; }     /* tweak if your masthead is taller */
   html { scroll-padding-top: 60px; }
 }
 
-/* Your overrides */
-.page__footer-copyright { display: none; }
+/* ===== Sticky left author panel on desktop ===== */
+@media (min-width: 1000px) {
+  .sidebar,
+  .sidebar__inner {
+    position: sticky;
+    top: 72px; /* match your sticky masthead height */
+    align-self: flex-start;
+    max-height: calc(100vh - 72px);
+    overflow: auto;
+  }
+}
+
+/* Optional: disable sticky on mobile */
+@media (max-width: 999px) {
+  .sidebar,
+  .sidebar__inner {
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
+}
+
+
+

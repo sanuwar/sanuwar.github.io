@@ -1,0 +1,12 @@
+<footer class="page__footer">
+    <div class="page__footer-follow">
+      {% if site.footer.links %}
+        {% include social.html %}
+      {% endif %}
+    </div>
+  
+    <div class="page__footer-copyright">
+      &copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}.
+    </div>
+  </footer>
+  
