@@ -1,27 +1,49 @@
-# Minimal Mistakes remote theme starter
+# 🌐 Sanuwar Rashid — Personal Website
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
-
-Contains basic configuration to get you a site with:
-
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-
-
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+This repository powers my personal website, built with [Jekyll](https://jekyllrb.com/) and the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme, and hosted on **GitHub Pages**.  
+You can visit it here: [https://sanuwar.github.io](https://sanuwar.github.io)
 
 ---
 
+## 📖 About the Site
+The website serves as a central hub for:
+- 🧑‍💻 My professional background and projects  
+- ✍️ Blog posts and field notes on AI, automation, and data science  
+- 📜 Certifications and academic contributions  
+- 📂 A portfolio of what I’ve built and continue to explore  
 
-## Troubleshooting
+---
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+## ⚙️ Tech Stack
+- **Jekyll** — Static site generator  
+- **Minimal Mistakes** — Responsive, clean, and customizable theme  
+- **GitHub Pages** — Free hosting directly from this repo  
+- **SCSS Customizations** — To tweak design elements like:
+  - Sticky top navigation
+  - Frozen author sidebar (profile + bio)
+  - Responsive avatar sizing
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+---
+
+## 🛠 Custom Features
+Some adjustments I’ve made to the base Minimal Mistakes setup:
+- Removed the default *“Powered by Jekyll & Minimal Mistakes”* footer credit to keep the focus on my branding  
+- Added sticky navigation for easy access while scrolling  
+- Sidebar author block (photo + bio) remains visible on desktop  
+- Clean typography and responsive avatar sizing  
+
+---
+
+## 🚀 Running Locally
+If you’d like to run this site locally for development:
+
+```bash
+# Clone the repo
+git clone https://github.com/sanuwar/sanuwar.github.io.git
+cd sanuwar.github.io
+
+# Install dependencies
+bundle install
+
+# Serve the site locally
+bundle exec jekyll serve
