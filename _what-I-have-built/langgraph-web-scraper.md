@@ -33,8 +33,7 @@ sidebar:
 toc: true
 toc_label: "Project Guide"
 toc_icon: "robot"
-author_profile: true
-classes: wide
+author_profile: true 
 ---
 
 {% include video id="ytDd3XrB67c" provider="youtube" %}
