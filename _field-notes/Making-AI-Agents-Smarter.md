@@ -24,7 +24,7 @@ toc_label: "Contents"
 toc_icon: "database"
 author_profile: true
 original_author: "Sanuwar Rashid"
-original_url: "https://medium.com/@sanuwar.rashid"
+linkedin_url: "https://www.linkedin.com/pulse/making-ai-agents-smarter-how-rag-vector-databases-power-rashid-cz0re/?trackingId=P1JWtmV9JfY5ABSWO9xsVQ%3D%3D"
 ---
 
 *Originally published by [Sanuwar Rashid]({{ page.original_url }}) on {{ page.date | date: "%B %d, %Y" }}*
@@ -99,11 +99,6 @@ The RAG approach enables:
 - **Cost-effective updates** to knowledge bases
 - **Contextual relevance** through similarity search
 - **Scalable intelligence** for autonomous agents
-
----
-
-**About the Original Author**: Sanuwar Rashid is a Senior Engineer at Humana, specializing in MLOps to Agentic AI and automating intelligence at scale.
-{: .notice--primary}
 
 ### Related Topics
 {: .no_toc}
