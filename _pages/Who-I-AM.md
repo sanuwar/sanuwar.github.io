@@ -3,7 +3,6 @@ layout: single
 title: "Who I Am"
 permalink: /who-i-am/
 author_profile: true
-classes: wide
 ---
 
 <div class="hero-section fade-in">
