@@ -62,7 +62,7 @@ author_profile: true
     <h3>Research & Analytics</h3>
     <span class="experience-period">Academic Rigor Meets Industry</span>
     <p>
-      Ph.D. expertise in corporate culture, branding, and consumer behavior with advanced modeling using SPSS, AMOS-SEM, and Hayes process models. My international academic training (Auburn University, Sweden) brings methodological rigor and analytical depth to AI evaluation frameworks and data-driven decision making.
+      Ph.D. expertise in corporate culture, branding, and consumer behavior with advanced modeling using SPSS, AMOS-SEM, and Hayes process models. My international academic training—Auburn University (US), University of Borås (Sweden), and University of Dhaka (Bangladesh)—brings methodological rigor and analytical depth to AI evaluation frameworks and data-driven decision making.
     </p>
   </div>
 </div>
