@@ -40,10 +40,10 @@ Completed a Ph.D. in Consumer & Design Sciences focused on ethical consumerism a
 Presented findings at conferences and industry forums, influencing policy discussions on fair trade, consumer awareness, and corporate social responsibility.
 
 **Responsible AI & Automation**  
-As a Senior Automation & AI Engineer, I design systems with built-in bias monitoring, observability dashboards, and transparent guardrails that improve healthcare outcomes by 30% and reduce bottlenecks by 20%.
+As a Senior Automation & AI Engineer, I design systems with built-in bias monitoring, observability dashboards, and transparent guardrails that improve healthcare outcomes by process standardization and optimization.
 
 **Leadership & Recognition**  
-Architected multi-agent AI frameworks (LangGraph, CrewAI, N8N) and hold certifications in IBM Data Science, MIT AI Strategy, and SAFe 6. Received Humana’s North Star Award (2021) and Star Award (2023) for ethical AI contributions.
+Architected multi-agent AI frameworks (LangGraph, CrewAI, N8N) and hold certifications in IBM Data Science, MIT AI Strategy, and SAFe 6. Received Humana’s North Star Award (2021) and Star Award (2023) for continuous learning and process optimization.
 
 ## Ongoing Commitments
 {: .fade-in}
