@@ -6,8 +6,8 @@ excerpt: "Scaling Agile practices across enterprise environments requires more t
 layout: single
 author_profile: true
 header:
-  teaser: /assets/badge/safe-practitioner.png
-  overlay_image: /assets/certificates/safe-practitioner-certificate.jpg
+  teaser: /assets/badge/safe-practitioner1.png
+  overlay_image: /assets/certificates/safe-practitioner-certificate1.jpg
   overlay_filter: 0.45
   caption: "Photo credit: Scaled Agile, Inc."
 categories:

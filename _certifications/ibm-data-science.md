@@ -6,8 +6,8 @@ excerpt: "Mastering the full data science workflow from data collection to machi
 layout: single
 author_profile: true
 header:
-  teaser: /assets/certificates/ibm-data-science-certificate.jpg
-  overlay_image: /assets/certificates/ibm-data-science-certificate.jpg
+  teaser: /assets/certificates/ibm-data-science-certificate1.jpg
+  overlay_image: /assets/certificates/ibm-data-science-certificate1.jpg
   overlay_filter: 0.45
   caption: "Photo credit: IBM / Coursera"
 categories:

@@ -6,8 +6,8 @@ excerpt: "Leading digital transformation in complex organizational environments 
 layout: single
 author_profile: true
 header:
-  teaser: /assets/certificates/cornell-digital-leadership-certificate.jpg
-  overlay_image: /assets/certificates/cornell-digital-leadership-certificate.jpg
+  teaser: /assets/certificates/cornell-digital-leadership-certificate1.jpg
+  overlay_image: /assets/certificates/cornell-digital-leadership-certificate1.jpg
   overlay_filter: 0.45
   caption: "Cornell University Executive Certificate"
 categories:

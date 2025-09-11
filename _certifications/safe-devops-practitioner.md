@@ -6,8 +6,8 @@ excerpt: "Bridging development and operations in enterprise environments require
 layout: single
 author_profile: true
 header:
-  teaser: /assets/badges/safe-devops-practitioner.png
-  overlay_image: /assets/certificates/safe-devops-certificate.jpg
+  teaser: /assets/badges/safe-devops-practitioner1.png
+  overlay_image: /assets/certificates/safe-devops-certificate1.jpg
   overlay_filter: 0.45
   caption: "Photo credit: Scaled Agile, Inc."
 categories:

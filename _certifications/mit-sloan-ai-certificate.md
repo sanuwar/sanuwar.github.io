@@ -6,8 +6,8 @@ excerpt: "Strategic AI leadership program covering six modules: from business di
 layout: single
 author_profile: true
 header:
-  teaser: /assets/certificates/mit-sloan-ai-certificate.png
-  overlay_image: /assets/certificates/mit-sloan-ai-certificate.png
+  teaser: /assets/certificates/mit-sloan-ai-certificate1.png
+  overlay_image: /assets/certificates/mit-sloan-ai-certificate1.png
   overlay_filter: 0.4
   caption: "MIT Sloan Executive Education Certificate"
 categories:
