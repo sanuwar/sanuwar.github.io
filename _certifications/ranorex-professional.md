@@ -35,14 +35,6 @@ credential_info:
 
 [← Back to All Certifications](/certifications/){: .text-center}
 
-## Certification Details
-
-**Issuer:** {{ page.credential_info.issuer }}  
-**Credential ID:** {{ page.credential_info.credential_id }}  
-**Issued:** {{ page.credential_info.issued_date | date: "%B %d, %Y" }}  
-**Status:** {{ page.credential_info.status }}  
-**Level:** {{ page.credential_info.level }}
-
 ## About This Certification
 
 The Ranorex Professional Certificate validates my expertise in designing and implementing automated UI tests using Ranorex Studio for desktop, web, and mobile applications. This certification underscores my ability to create maintainable, data-driven test suites and integrate them seamlessly into Continuous Integration/Continuous Deployment (CI/CD) pipelines.
