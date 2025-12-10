@@ -5,23 +5,12 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Responsive avatar that won’t crowd the motto */
+/* Larger avatar for author profile */
 .author__avatar img {
-  width: clamp(80px, 12vw, 120px); /* min 80px, scales with viewport, max 120px */
+  max-width: 200px;   /* increase/decrease this number as you like */
+  width: 200px;
   height: auto;
   border-radius: 50%;
-  max-width: none; /* let clamp control size */
-}
-
-/* If you want stricter control by breakpoint instead of clamp: */
-@media (max-width: 480px) {
-  .author__avatar img { width: 80px !important; }
-}
-@media (min-width: 481px) and (max-width: 1024px) {
-  .author__avatar img { width: 100px; }
-}
-@media (min-width: 1025px) {
-  .author__avatar img { width: 120px; }
 }
 
 /* Keep the top navigation visible while scrolling */
