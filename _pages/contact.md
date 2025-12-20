@@ -17,11 +17,10 @@ excerpt: "Reach out via email, social links, or send a message through the form 
 ## Direct
 {: .fade-in}
 
-<div class="section-content fade-in">
-- **Email:** <a href="mailto:sanuwar.rashid@gmail.com">sanuwar.rashid@gmail.com</a><br>
-- **LinkedIn:** <a href="https://linkedin.com/in/Sanuwar" target="_blank">linkedin.com/in/Sanuwar</a><br>
-- **GitHub:** <a href="https://github.com/Sanuwar" target="_blank">github.com/Sanuwar</a>
-</div>
+- **Email:** [sanuwar.rashid@gmail.com](mailto:sanuwar.rashid@gmail.com)
+- **LinkedIn:** [linkedin.com/in/sanuwar](https://linkedin.com/in/sanuwar)
+- **GitHub:** [github.com/sanuwar](https://github.com/sanuwar)
+
 
 ---
 
