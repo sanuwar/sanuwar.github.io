@@ -6,70 +6,90 @@ author_profile: true
 header:
   overlay_image: /assets/images/beyond-code-header.jpg
   overlay_filter: 0.5
-  caption: "Life is about balance - code, nature, and the people we love"
-excerpt: "When I'm not debugging code or architecting solutions, you'll find me on the water with my kayak or exploring new places with my family. Here's a glimpse into the adventures that keep me energized and inspired."
+  caption: "Life is about balance — code, nature, and the people we love"
+excerpt: "When I'm not building or thinking about systems, you'll usually find me outdoors, on the water, or spending time with family. This page is a glimpse into the moments that keep me grounded."
 ---
 
-## 🚣‍♂️ Kayaking Adventures
+When I’m not working with code or ideas, I try to stay close to things that feel real and unhurried — water, trails, family time, and movement.
 
-There's something magical about being on the water - the rhythm of the paddle, the peaceful silence, and the connection with nature. Kayaking has become my go-to activity for clearing my mind and finding inspiration.
-
-![Kayaking Setup](/assets/images/kayaking-setup.jpg)
-*Ready for another adventure! My trusty kayak has taken me to some incredible places. There's nothing like the early morning paddle when the water is glass-smooth and the world is just waking up.*
-{: .text-center}
-
-Whether it's exploring hidden coves, navigating gentle rapids, or simply enjoying a peaceful morning on the lake, kayaking provides the perfect balance to screen time. It's where some of my best problem-solving happens - something about the meditative motion of paddling helps untangle complex technical challenges.
-
-**Favorite aspects of kayaking:**
-- Early morning paddles before the world gets busy
-- Discovering new waterways and hidden spots
-- The physical and mental reset it provides
-- Perfect thinking time for approaching coding challenges differently
-
-## 👨‍👩‍👧‍👦 Family Explorations
-
-Family time is sacred. We love discovering new places together, whether it's visiting historical sites, exploring nature trails, or simply enjoying each other's company at local attractions.
-
-![Family at Historic Train](/assets/images/family-train-museum.jpg)
-*Exploring history together at a local train museum. These vintage locomotives never fail to amaze us - there's something inspiring about the engineering marvels of the past that connects to the innovation we do today.*
-{: .text-center}
-
-![Stadium Experience](/assets/images/stadium-visit.jpg)
-*Taking in the atmosphere at the stadium. Whether it's sports, concerts, or community events, we enjoy experiencing the energy of live gatherings.*
-{: .text-center}
-
-## 🥾 Nature & Outdoor Exploration
-
-Every weekend brings a new opportunity to explore. From scenic nature trails to local parks, we're always seeking out new adventures that get us moving and exploring.
-
-![Nature Trail Adventure](/assets/images/nature-trail-exploration.jpg)
-*Wandering through scenic trails and discovering beautiful overlooks. These wooden walkways through the forest remind me that sometimes the best solutions come from taking a step back and viewing things from a different perspective.*
-{: .text-center}
-
-These outdoor experiences teach patience, observation, and the importance of taking calculated steps - skills that translate directly to software development and problem-solving.
-
-## 🧭 What These Adventures Teach Me
-
-**Balance**: Regular outdoor activities keep me energized and focused when I return to coding projects.
-
-**Problem-Solving**: Whether navigating a new kayak route or finding the best family-friendly trail, these experiences enhance my ability to assess situations and find creative solutions.
-
-**Perspective**: Time away from screens provides mental clarity that often leads to breakthrough moments in technical challenges.
-
-**Teamwork**: Family adventures reinforce the importance of communication, planning, and working together toward common goals.
-
-## 🌊 Always Ready for the Next Adventure
-
-Life is about more than code - it's about the experiences we create, the places we explore, and the people we share them with. These activities don't just provide work-life balance; they actively make me a better developer by keeping my mind fresh, my body active, and my perspective broad.
-
-Whether I'm debugging code at 2 AM or planning the architecture for a new system, I know that my next kayaking adventure or family exploration is just around the corner, ready to provide the inspiration and energy I need to tackle whatever comes next.
+This page isn’t a checklist of hobbies. It’s a snapshot of how I unwind, reset, and stay curious about the world outside a screen.
 
 ---
 
-*"The best developers aren't just great at writing code - they're curious explorers who bring diverse experiences to every problem they solve."*
-{: .text-center .notice--primary}
+## 🚣‍♂️ On the Water
 
-### Connect With Me
-{: .no_toc}
+Kayaking has become one of my favorite ways to slow everything down.  
+The rhythm of paddling, the quiet, and the open space make it easy to think — or not think at all.
 
-Always happy to chat about kayaking spots, family-friendly adventures, or how outdoor activities can enhance your development workflow. Feel free to reach out!
+Some of my best ideas show up when I’m not trying to force them.
+
+![Kayaking by the lake](/assets/images/BeyondCode/Kayaking_1.jpg)
+![Quiet water moment](/assets/images/BeyondCode/Kayaking_2.jpg)
+
+Early mornings on calm water are especially special — before the day gets loud.
+
+---
+
+## 👨‍👩‍👧‍👦 With Family
+
+A lot of the best moments are simple ones: bike rides, park benches, day trips, and places we stumble upon together.
+
+These are the moments that matter most.
+
+![Family bike break](/assets/images/BeyondCode/cycling_2.jpg)
+![Family time outdoors](/assets/images/BeyondCode/Family_1.jpg)
+![Another day out together](/assets/images/BeyondCode/Family_3.jpg)
+
+We explore at our own pace. No rush. No agenda.
+
+---
+
+## 🥾 Outside, Moving, Wandering
+
+I enjoy being outdoors in any form — biking through trails, hiking without a strict destination, or just sitting somewhere green and letting time pass.
+
+Movement helps clear my head. Nature helps reset my perspective.
+
+![Biking through trails](/assets/images/BeyondCode/Cycling_1.jpg)
+![On the rocks, mid-pause](/assets/images/BeyondCode/outdoor_6.jpg)
+![Taking in the view](/assets/images/BeyondCode/outdoor_2.jpg)
+
+---
+
+## 🎾 Just for Fun
+
+Not everything needs a deeper meaning.  
+Sometimes it’s tennis. Sometimes it’s a walk. Sometimes it’s just moving for the sake of moving.
+
+![Playing tennis](/assets/images/BeyondCode/playing_tennis_1.jpg)
+![Mid-game moment](/assets/images/BeyondCode/playing_tennis_2.jpg)
+
+---
+
+## 🌊 Slow Moments
+
+Camping, fishing late at night, sitting quietly — these moments don’t look productive, but they’re often the most restorative.
+
+![Camping downtime](/assets/images/BeyondCode/outdoor_3.jpg)
+![Fishing at night](/assets/images/BeyondCode/fishing.jpg)
+
+---
+
+## 📸 More moments
+
+A few extra snapshots I didn’t want to leave out.
+
+![Train museum day](/assets/images/BeyondCode/Family_2.jpg)
+![Hollywood moment](/assets/images/BeyondCode/Outdoor_4.jpg)
+![Wall mural day](/assets/images/BeyondCode/outdoor_5.jpg)
+![Trail pause](/assets/images/BeyondCode/outdoor_1.jpg)
+
+---
+
+## 🧭 Beyond Code
+
+I don’t draw a hard line between work and life.  
+Being outdoors helps me think better.  
+Being present helps me build better.  
+
+Stepping away from code often makes returning to it more meaningful.
