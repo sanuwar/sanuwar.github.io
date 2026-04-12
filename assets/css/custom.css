@@ -79,10 +79,61 @@ figure.third > a img:hover {
   background: rgba(255,255,255,0.35);
 }
 
+/* ── Search overlay ── */
+.search-content {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9998;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 2rem;
+}
+
+.search-content.is--visible {
+  display: block;
+}
+
+.search-content .search-input {
+  width: 100%;
+  font-size: 1.1rem;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  outline: none;
+  padding: 0.4rem 0;
+  background: transparent;
+}
+
+#results-container {
+  margin-top: 1rem;
+  max-height: 50vh;
+  overflow-y: auto;
+  list-style: none;
+  padding: 0;
+}
+
+#results-container li a {
+  display: block;
+  padding: 0.4rem 0;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+#results-container li a:hover {
+  color: #000;
+}
+
 /* ── Fix nav overflow so dropdowns aren't clipped ── */
-.greedy-nav,
+.greedy-nav {
+  overflow: visible !important;
+}
+
 .greedy-nav .visible-links {
   overflow: visible !important;
+  align-items: center;
 }
 
 /* ── Dropdown navigation ── */
@@ -91,20 +142,25 @@ figure.third > a img:hover {
 }
 
 .nav-parent-label {
-  display: inline-block;
-  padding: 0.5rem 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0.25rem 0.6rem;
   cursor: pointer;
   font-size: 0.9em;
   color: inherit;
   white-space: nowrap;
   user-select: none;
+  transition: background 0.15s ease;
+}
+
+.masthead__menu-item.has-dropdown:hover .nav-parent-label,
+.masthead__menu-item.has-dropdown.open .nav-parent-label {
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .dropdown-arrow {
-  font-size: 0.6em;
-  vertical-align: middle;
-  margin-left: 3px;
-  opacity: 0.6;
+  font-size: 0.7em;
   transition: transform 0.2s ease;
   display: inline-block;
 }

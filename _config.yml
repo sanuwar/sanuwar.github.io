@@ -19,6 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username: sanuwar
 minimal_mistakes_skin: air
 search: true
+search_provider: lunr
 
 # Mermaid configuration
 mermaid:

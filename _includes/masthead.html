@@ -20,7 +20,7 @@
           {%- for link in site.data.navigation.main -%}
             {% if link.children %}
               <li class="masthead__menu-item has-dropdown">
-                <span class="nav-parent-label">{{ link.title }} <span class="dropdown-arrow">&#9662;</span></span>
+                <span class="nav-parent-label">{{ link.title }} <i class="fas fa-chevron-down dropdown-arrow"></i></span>
                 <ul class="dropdown-menu">
                   {% for child in link.children %}
                     <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
