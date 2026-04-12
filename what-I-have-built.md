@@ -4,8 +4,8 @@ layout: collection
 permalink: /what-I-have-built/
 collection: what-I-have-built
 entries_layout: list
-sort_by: date
-sort_order: reverse
+sort_by: order
+sort_order: forward
 author_profile: true
 ---
 

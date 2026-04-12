@@ -1,5 +1,6 @@
 ---
 title: "LangGraph Agentic AI Web Scraper"
+order: 2
 layout: single
 permalink: /what-I-have-built/langgraph-web-scraper/
 header:

@@ -1,5 +1,6 @@
 ---
 title: "IBM Data Science Professional Certificate"
+order: 3
 date: 2024-09-17
 last_modified_at: 2024-09-17
 excerpt: "Mastering the full data science workflow from data collection to machine learning deployment. This comprehensive IBM Professional Certificate program provided hands-on experience with Python, SQL, data visualization, and machine learning algorithms to solve real-world business problems."

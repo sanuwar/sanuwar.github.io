@@ -16,8 +16,7 @@ title: Sanuwar Rashid
 email: sanuwar.rashid@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hi, I’m Sanuwar — exploring the future of autonomous agents and turning workflow automation into an art form.
-twitter_username: username
-github_username: username
+github_username: sanuwar
 minimal_mistakes_skin: air
 search: true
 
@@ -38,6 +37,9 @@ collections:
     output: true
     permalink: /:collection/:name/
   certifications:
+    output: true
+    permalink: /:collection/:name/
+  diy-projects:
     output: true
     permalink: /:collection/:name/
 
@@ -110,8 +112,6 @@ author:
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
 
-head_scripts:
-  - /assets/css/custom.css
 
 footer:
   links:
@@ -210,6 +210,14 @@ defaults:
       path: "_certifications"
       type: certifications
     values:
+      author_profile: true
+
+  # DIY Projects collection
+  - scope:
+      path: "_diy-projects"
+      type: diy-projects
+    values:
+      layout: single
       author_profile: true
       
 category_archive:

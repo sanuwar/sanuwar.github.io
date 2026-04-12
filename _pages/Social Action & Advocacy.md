@@ -53,7 +53,4 @@ Architected multi-agent AI frameworks (LangGraph, CrewAI, N8N) and hold certific
 - **Continuous Learning:** Stay informed on global justice issues and share insights.
 - **Academic Contributions:** Continue publishing research at the intersection of technology and social justice.
 
-<div class="cta-section fade-in">
-  <p>"Privilege comes with obligation. Every line of code and system design asks: who benefits and who might be left behind?"</p>
-  <a href="/contact/" class="btn btn--primary btn--large">Connect & Collaborate →</a>
-</div>
+ > "Privilege comes with obligation. Every line of code and system design asks: who benefits and who might be left behind?"

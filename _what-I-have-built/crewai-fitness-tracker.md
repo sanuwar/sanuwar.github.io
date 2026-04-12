@@ -1,5 +1,6 @@
 ---
 title: "CrewAI Fitness Tracker"
+order: 3
 layout: single
 permalink: /what-I-have-built/crewai-fitness-tracker/
 header:

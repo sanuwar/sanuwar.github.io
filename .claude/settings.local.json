@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:assortdemo.duckdns.org)",
+      "WebFetch(domain:medium.com)",
+      "Bash(python3 -c ':*)",
+      "Bash(py --version)",
+      "Bash(py -c \"import cairosvg\")",
+      "Bash(py -c ':*)",
+      "WebFetch(domain:www.facebook.com)",
+      "Bash(node -e ':*)"
+    ]
+  }
+}

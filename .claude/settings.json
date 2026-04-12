@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ':*)",
+      "Read(//c/Users/rashi/AppData/Local/Temp/**)",
+      "Bash(magick --version)",
+      "Bash(convert --version)",
+      "Bash(node -e \"require\\('sharp'\\); console.log\\('sharp available'\\)\")",
+      "Bash(node -e \"require\\('jimp'\\); console.log\\('jimp available'\\)\")",
+      "Bash(node -e \" const fs = require\\('fs'\\); const { createCanvas, loadImage } = require\\('canvas'\\); console.log\\('canvas available'\\); \")",
+      "Read(//c/Users/rashi/.claude/projects/c--sanuwar-github-io-sanuwar-github-io/**)"
+    ],
+    "additionalDirectories": [
+      "c:\\sanuwar github io\\sanuwar.github.io\\assets\\images\\diy"
+    ]
+  }
+}

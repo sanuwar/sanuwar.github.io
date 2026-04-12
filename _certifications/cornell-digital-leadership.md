@@ -1,5 +1,6 @@
 ---
-title: "Digital Leadership Certificate"
+title: "Digital Leadership Certificate from Cornell University"
+order: 1
 date: 2024-02-01
 last_modified_at: 2024-02-01
 excerpt: "Leading digital transformation in complex organizational environments requires strategic thinking, systems perspective, and entrepreneurial mindset. This Cornell University executive program provided deep insights into digital leadership frameworks, innovation management, and sustainable transformation strategies."

@@ -1,5 +1,6 @@
 ---
 title: "Certified SAFe® 6 DevOps Practitioner"
+order: 5
 date: 2024-06-17
 last_modified_at: 2024-06-17
 excerpt: "Bridging development and operations in enterprise environments requires deep understanding of continuous delivery pipelines, automation, and cultural transformation. My SAFe® 6 DevOps Practitioner certification validates expertise in implementing DevOps practices within the Scaled Agile Framework for seamless value delivery."

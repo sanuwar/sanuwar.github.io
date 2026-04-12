@@ -1,5 +1,6 @@
 ---
-title: "Enterprise Agentic AI Chatbot"
+title: "Enterprise Agentic AI Chatbot — Powered by n8n"
+order: 4
 layout: single
 permalink: /what-I-have-built/rag-chatbot/
 header:

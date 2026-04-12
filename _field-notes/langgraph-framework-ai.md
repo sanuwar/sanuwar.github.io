@@ -192,4 +192,3 @@ It’s like working with an assistant who gets better every day.
 
 LangGraph doesn’t just make AI smarter—it makes AI **think**. It’s a shift from automation to cognition. From sequence to strategy. From chatbot to collaborator.
 
-**Ready to build AI that actually thinks?** LangGraph is open source and production-ready. Start building agents that reason, reflect, and collaborate today.

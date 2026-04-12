@@ -1,5 +1,6 @@
 ---
 title: "Ranorex Professional Certificate"
+order: 6
 date: 2025-09-01
 last_modified_at: 2025-09-11
 excerpt: "Demonstrates expertise in automated UI testing with Ranorex Studio, enabling robust, maintainable test automation solutions and enhancing SDLC efficiency."

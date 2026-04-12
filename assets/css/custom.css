@@ -1,0 +1,167 @@
+/* ── Gallery: uniform image sizes ── */
+figure.half figcaption,
+figure.third figcaption {
+  display: none;
+}
+
+figure.half,
+figure.third {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 1em 0;
+}
+
+figure.half > a,
+figure.third > a {
+  flex: 1 1 0;
+  overflow: hidden;
+  min-width: 0;
+}
+
+figure.half > a img,
+figure.third > a img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+figure.half > a img:hover,
+figure.third > a img:hover {
+  transform: scale(1.03);
+}
+
+/* ── Custom lightbox ── */
+#custom-lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.88);
+  z-index: 99999;
+  align-items: center;
+  justify-content: center;
+}
+
+#custom-lightbox.active {
+  display: flex;
+}
+
+#custom-lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.6);
+}
+
+#custom-lightbox-close {
+  position: fixed;
+  top: 16px;
+  right: 20px;
+  width: 44px;
+  height: 44px;
+  background: rgba(255,255,255,0.15);
+  border: 2px solid rgba(255,255,255,0.6);
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 100000;
+  transition: background 0.15s ease;
+}
+
+#custom-lightbox-close:hover {
+  background: rgba(255,255,255,0.35);
+}
+
+/* ── Fix nav overflow so dropdowns aren't clipped ── */
+.greedy-nav,
+.greedy-nav .visible-links {
+  overflow: visible !important;
+}
+
+/* ── Dropdown navigation ── */
+.masthead__menu-item.has-dropdown {
+  position: relative;
+}
+
+.nav-parent-label {
+  display: inline-block;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  font-size: 0.9em;
+  color: inherit;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.dropdown-arrow {
+  font-size: 0.6em;
+  vertical-align: middle;
+  margin-left: 3px;
+  opacity: 0.6;
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+/* Rotate arrow when open */
+.masthead__menu-item.has-dropdown:hover .dropdown-arrow,
+.masthead__menu-item.has-dropdown.open .dropdown-arrow {
+  transform: rotate(-180deg);
+}
+
+/* Hidden by default — use opacity + translateY for smooth fade-in */
+.dropdown-menu {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0s linear 0.18s;
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  min-width: 160px;
+  background: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+  list-style: none;
+  padding: 0.3rem 0;
+  margin: 0;
+  z-index: 9999;
+}
+
+/* Show on hover or .open */
+.masthead__menu-item.has-dropdown:hover .dropdown-menu,
+.masthead__menu-item.has-dropdown.open .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0s linear 0s;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 0.35rem 1rem;
+  font-size: 0.82em;
+  color: #444;
+  text-decoration: none;
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+
+.dropdown-menu li a:hover {
+  background: #f5f5f5;
+  color: #111;
+  padding-left: 1.2rem;
+}

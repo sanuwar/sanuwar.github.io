@@ -1,5 +1,6 @@
 ---
 title: "Certified SAFe® 6 Practitioner"
+order: 4
 date: 2024-07-12
 last_modified_at: 2024-07-12
 excerpt: "Scaling Agile practices across enterprise environments requires more than theory—it demands practical expertise in leading transformation. My SAFe® 6 Practitioner certification journey provided deep insights into Lean-Agile principles, PI Planning, and delivering value at scale in complex organizational structures."

@@ -1,15 +1,21 @@
 main:
   - title: "Who I Am"
     url: /who-i-am/
-  - title: "Field Notes"
-    url: /field-notes/
-  - title: "What I have Built"
-    url: /what-I-have-built/
-  - title: "Professional Development"
-    url: /certifications/
-  - title: "Social Action & Advocacy"
-    url: /social-action-advocacy/
+  - title: "Work & Code"
+    children:
+      - title: "Field Notes"
+        url: /field-notes/
+      - title: "What I Have Built"
+        url: /what-I-have-built/
+      - title: "Professional Development"
+        url: /certifications/
   - title: "Beyond Code"
-    url: /hobbies/
+    children:
+      - title: "Hobbies"
+        url: /hobbies/
+      - title: "DIY Projects"
+        url: /diy-projects/
+      - title: "Social Action & Advocacy"
+        url: /social-action-advocacy/
   - title: "Let's Talk"
     url: /contact/

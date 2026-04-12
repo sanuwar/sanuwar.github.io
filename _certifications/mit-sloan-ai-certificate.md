@@ -1,5 +1,6 @@
 ---
-title: "Artificial Intelligence - Implications for Business Strategy"
+title: "AI for Business Strategy from MIT Sloan"
+order: 2
 date: 2025-04-27
 last_modified_at: 2025-04-27
 excerpt: "Strategic AI leadership program covering six modules: from business differentiation to ethical implementation. A comprehensive journey through ML, Generative AI, robotics, ethics, and strategic roadmapping for organizational transformation."

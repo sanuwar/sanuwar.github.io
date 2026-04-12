@@ -5,66 +5,56 @@ permalink: /who-i-am/
 author_profile: true
 ---
 
-Hi, I’m Sanuwar.
+Hi, I'm Sanuwar.
 
-My background sits at the intersection of **research, statistics, and applied engineering**. I was trained to think analytically—formulating questions, testing assumptions, and interpreting evidence—long before I began building production software systems. That foundation continues to shape how I approach machine learning and AI work today.
+*Oh, one more thing. My full name is Md Sanuwar Rashid. That "Md" at the beginning — it does not mean doctor. I know, I know. Many people think that. But no, I cannot write you a prescription. "Md" is just a short form of Muhammad. It is very common in Bangladesh. I just got stuck with it at the front of my name. So now you know, and we can move on.*
 
-In practice, I now work at the intersection of **LLM-based and agentic AI systems, RAG architectures and production engineering**, focusing on the infrastructure and workflows that help AI features operate reliably beyond demos.
-
-In short, I enjoy building AI systems where data, models, retrieval, and evaluation come together in ways that are measurable, maintainable, and grounded in evidence.
+I am an AI and automation engineer. I build systems that use large language models, intelligent agents, and data retrieval to solve real problems. I care about making these systems reliable — not just impressive in a demo, but dependable in everyday use.
 
 ---
 
-## Education and Perspective
+## Where I Come From
 
-My educational path has been deliberately interdisciplinary and international. I earned a B.Sc. in Textile Engineering in Bangladesh, an M.Sc. in Industrial Engineering in Sweden, and a Ph.D. in Consumer and Design Sciences in the United States. Studying across different disciplines and educational systems shaped how I think—less in terms of isolated components, and more in terms of connected systems, trade-offs, and human impact. That perspective continues to inform how I approach complex technical problems and how I think about leadership at a systems level.
+I grew up in Bangladesh, where I studied Textile Engineering. Then I moved to Sweden for a Master's degree in Industrial Engineering. After that, I came to the United States and earned a PhD in Consumer and Design Sciences.
+
+Studying in three different countries taught me a lot — not just from books, but from navigating different cultures, languages, and ways of thinking. I learned how to ask good questions, look at problems from different angles, and not rush to conclusions.
 
 ---
 
-## My Journey
+## How I Got Here
 
-My early training was rooted in research design and statistical analysis. As my work became more applied, I moved into backend and automation engineering—building services, APIs, and data pipelines that needed to be reliable at scale. This phase grounded my thinking in real-world constraints such as latency, failure modes, monitoring, and maintainability.
+I started my career in research and statistics. I was trained to design studies, analyze data, and draw careful conclusions from evidence.
 
-Over time, these two threads—research thinking and engineering practice—converged. I began working on end-to-end AI workflows, where models, data, retrieval, and reasoning systems must function as a cohesive whole. Today, my focus is on making these systems dependable enough to support real users and real decisions.
+Over time, I moved into software engineering — building APIs, automating workflows, and creating data pipelines. That experience grounded me in real-world constraints: things need to be fast, reliable, and easy to maintain.
+
+Eventually, these two paths came together. I started building AI systems where research thinking and engineering practice both matter. That is where I work today.
+
+---
+
+## What I Work On
+
+**AI Agents and Retrieval Systems**
+I build systems that combine search, memory, and AI reasoning. These systems can answer questions, retrieve relevant information, and take actions — all in a way that can be measured and tested.
+
+**Machine Learning in Production**
+I work on taking machine learning models from experiments into real products. That means training, deploying, monitoring, and updating models as things change.
+
+**Responsible AI**
+I think carefully about how AI systems behave — making sure they stay within boundaries, follow rules, and can be audited. Good AI should be trustworthy, not just smart.
 
 ---
 
 ## How I Work
 
-A few principles consistently guide my approach:
+A few things guide how I approach my work:
 
-- **Design for measurement:** define baselines, success criteria, and failure modes early.
-- **Treat ML and retrieval as system components:** models, embeddings, prompts, and data flows are versioned, tested, and monitored.
-- **Ship incrementally:** move from offline evaluation to controlled rollout, then iterate based on evidence rather than intuition.
-
----
-
-## What I Build
-
-### Agentic AI and Retrieval Systems
-
-I design and build retrieval-augmented systems that combine vector search, memory, and tool-calling agents, with evaluation at the center—using gold datasets, automated judges, and regression checks to understand behavior over time.
-
-### Machine Learning Models and Deployment Pipelines
-
-I work with machine learning models that feed into RAG systems, including feature generation, model training, and deployment pipelines. I focus on integrating these models into production workflows so they can be monitored, updated, and reliably consumed by downstream systems.
-
-### Guardrails, Compliance, and Enterprise Readiness
-
-I care deeply about predictable behavior in AI systems, including guardrails such as system prompts, role boundaries, access controls, and auditability, so that intelligent systems behave responsibly when deployed in enterprise environments.
+- I define what success looks like before I start building
+- I treat every model, prompt, and data pipeline as something that needs to be tested and monitored
+- I move in small steps, check results, and adjust based on evidence
 
 ---
 
-## Research and Analytics Roots
+## What I Am Looking For
 
-My research and statistical training continues to shape how I work. I tend to frame problems as hypotheses, validate assumptions with data, and interpret results carefully—using evidence to guide decisions rather than relying on intuition alone.
+I am most excited by work that sits at the intersection of AI agents, retrieval, and system reliability. I enjoy teams that take evaluation seriously and want to turn AI experiments into things people can actually depend on.
 
----
-
-## What I’m Looking For
-
-I’m most excited by roles where **Agentic AI, retrieval, and system reliability intersect**—especially teams that value evaluation, deployment discipline, and turning AI experimentation into durable, production systems.
-
-If you’d like to compare notes or explore working together:
-
-**[Let’s Talk →](/contact/)**
