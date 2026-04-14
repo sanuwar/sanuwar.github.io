@@ -9,4 +9,4 @@ sort_order: forward
 author_profile: true
 ---
 
-Welcome to my professional certifications portfolio - a comprehensive collection of validated skills and expertise across enterprise AI, robotics, RAG (Retrieval-Augmented Generation), agentic AI systems, cloud platforms, and software development. These certifications demonstrate my commitment to continuous learning and mastery of cutting-edge AI technologies, autonomous systems, and industry best practices.
+Courses and certifications I have completed. I learn best by doing, but I also believe in building a solid foundation. These represent the areas I have invested time in deliberately.

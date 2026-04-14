@@ -1,56 +1,52 @@
 ---
-title: "Social Action & Advocacy"
+title: "Ethics, Research & Human Impact"
 permalink: /social-action-advocacy/
 layout: single
 author_profile: true
 header:
   overlay_image: /assets/images/social-action-header.jpg
   overlay_filter: 0.5
-  caption: "Using technology and voice to uplift the vulnerable and drive systemic change"
-excerpt: "A journey from grassroots labor organizing in Bangladesh to ethical technology leadership in the US."
+  caption: "Building technology that accounts for the people it affects"
+excerpt: "From academic research into labor systems in Bangladesh to building ethical AI in the United States — a career shaped by understanding how technology and systems affect real people."
 ---
 
-## My Guiding Principles
-{: .fade-in}
+## What Guides My Work
 
-- **Ethical Responsibility:** Technology should serve humanity, not exploit it.
-- **Amplify the Voiceless:** Advocate for those without a megaphone.
-- **Courage Over Comfort:** Speak truth to power, even when it's risky.
-- **Continuous Learning:** Evolve my approach by listening first, then acting.
+- **Ethical Design** — Every system I build, I ask: who does this help and who might it hurt?
+- **Ground-Level Understanding** — I have seen how large systems affect ordinary people up close. That shapes how I design.
+- **Research Before Action** — I rely on evidence, not assumptions.
+- **Continuous Learning** — Stay informed, stay humble, keep improving.
 
-## Chapter 1: Grassroots Advocacy (Bangladesh, 2006–2017)
-{: .fade-in}
+## Early Career — Engineering, Teaching & Research (Bangladesh, 2006–2017)
 
-**From Factory Floors to Community Forums**  
-Started as an engineer in Bangladesh's garment industry, witnessing worker challenges first-hand; organized "readers' forums" and workshops to promote labor rights and fair wages.
+I started my career as an engineer in Bangladesh's garment industry. Working inside that industry gave me a ground-level view of how large systems — supply chains, labor markets, corporate structures — affect the people inside them.
 
-**Building Collective Power**  
-Co-founded the Garments Worker Welfare Committee, collaborated with local leaders, and published reports highlighting unsafe conditions including factory closures, mass worker fatalities, and corruption by powerful interests.
+At the same time, I was a university teacher. I organized students for extracurricular programs focused on social awareness, including the conditions of workers in the industries around us. Getting students to look beyond their classroom and think about the real world was one of the most rewarding things I did in those years.
 
-**Attacked by an Oppressive Regime**  
-During widespread labor unrest, I spoke out on behalf of vulnerable workers. This led to targeted repression—torture, persecution, and general oppression by authorities from 2010 to 2018—resulting in forced job changes, threats, and ultimately relocation to protect my family's safety.
+Out of that work, I co-founded the Garments Worker Welfare Committee — a research and community group focused on documenting worker conditions, publishing findings, and raising awareness among employers, academics, and policymakers. We published reports on workplace safety, worker welfare, and fair labor practices.
 
-## Chapter 2: Ethical Tech Leadership (United States, 2013–Present)
-{: .fade-in}
+That combination — engineering, teaching, community-based research, and published findings — is what eventually led me toward a PhD and toward asking bigger questions about how systems are designed and who they serve.
 
-**Academic Research & Global Recognition**  
-Completed a Ph.D. in Consumer & Design Sciences focused on ethical consumerism and labor rights. Published in peer-reviewed journals (e.g., Vaccine); awarded ESRAP Best Research Paper in 2018.
+Due to a difficult political environment, I eventually relocated my family to the United States. That experience of navigating complex and uncertain circumstances gave me a resilience and adaptability that I carry into every role I take on.
 
-**International Advocacy Through Research**  
-Presented findings at conferences and industry forums, influencing policy discussions on fair trade, consumer awareness, and corporate social responsibility.
+## US Career — Research, AI & Ethical Systems (2013–Present)
 
-**Responsible AI & Automation**  
-As an Automation & AI enthusiast, I design systems with built-in bias monitoring, observability dashboards, and transparent guardrails that improve healthcare outcomes by process standardization and optimization.
+**PhD Research**
+Completed a PhD in Consumer and Design Sciences focused on ethical consumerism and labor rights. Published in peer-reviewed journals including Vaccine. Received the ESRAP Best Research Paper Award in 2018.
 
-**Leadership & Recognition**  
-Architected multi-agent AI frameworks (LangGraph, CrewAI, N8N) and hold certifications in IBM Data Science, MIT AI Strategy, and SAFe 6. Received Humana’s North Star Award (2021) and Star Award (2023) for continuous learning and process optimization.
+**International Research Presentations**
+Presented findings at academic conferences and industry forums on fair trade, consumer awareness, and corporate responsibility. This work connected my early ground-level experience to formal academic research and policy conversations.
 
-## Ongoing Commitments
-{: .fade-in}
+**Responsible AI Engineering**
+As an AI and automation engineer, I design systems with built-in bias monitoring, observability dashboards, and transparent guardrails. My background in human systems — understanding how decisions made at the design level affect people downstream — directly informs this work.
 
-- **Community Engagement:** Support nonprofits leveraging tech for social good.
-- **Responsible AI Advocacy:** Promote ethical standards and governance in AI projects.
-- **Continuous Learning:** Stay informed on global justice issues and share insights.
-- **Academic Contributions:** Continue publishing research at the intersection of technology and social justice.
+**Professional Recognition**
+Architected multi-agent AI frameworks using LangGraph, CrewAI, and N8N. Hold certifications in IBM Data Science, MIT AI Strategy, and SAFe 6. Received Humana's North Star Award (2021) and Star Award (2023) for continuous learning and process optimization.
 
- > "Privilege comes with obligation. Every line of code and system design asks: who benefits and who might be left behind?"
+## Ongoing
+
+- Supporting nonprofits that use technology for community benefit
+- Promoting responsible AI practices and ethical guardrails in engineering teams
+- Publishing and presenting research at the intersection of technology and human impact
+
+> "Understanding how systems affect real people is not separate from engineering — it is part of it."

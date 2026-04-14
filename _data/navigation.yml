@@ -15,7 +15,5 @@ main:
         url: /hobbies/
       - title: "DIY Projects"
         url: /diy-projects/
-      - title: "Social Action & Advocacy"
+      - title: "Ethics & Human Impact"
         url: /social-action-advocacy/
-  - title: "Let's Talk"
-    url: /contact/

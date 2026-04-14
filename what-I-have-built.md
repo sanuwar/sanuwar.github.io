@@ -9,4 +9,4 @@ sort_order: forward
 author_profile: true
 ---
 
-Welcome to my project showcase - a collection of technical demonstrations, implementations, and solutions I've developed. These projects span across AI/ML, automation, data engineering, and no-code platforms, showcasing practical applications of cutting-edge technologies.
+These are real projects I have built — AI agents, retrieval systems, automation workflows, and data pipelines. Some are finished. Some are still evolving. All of them taught me something.
