@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+
   // Custom lightbox for gallery figures
   var lightbox = document.createElement('div');
   lightbox.id = 'custom-lightbox';
@@ -109,6 +110,15 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
+
+  // Mobile only: override theme JS that hides social links behind Follow button
+  function showMobileAuthorLinks() {
+    if (window.innerWidth > 925) return;
+    var urls = document.querySelector('.author__urls');
+    if (urls) urls.style.setProperty('display', 'flex', 'important');
+  }
+  showMobileAuthorLinks();
+  setTimeout(showMobileAuthorLinks, 300);
 
   // Click-to-toggle for dropdown menus
   document.querySelectorAll('.masthead__menu-item.has-dropdown').forEach(function (item) {

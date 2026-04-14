@@ -10,12 +10,12 @@ header:
 excerpt: "From academic research into labor systems in Bangladesh to building ethical AI in the United States — a career shaped by understanding how technology and systems affect real people."
 ---
 
-## What Guides My Work
+## What Shapes How I Think
 
-- **Ethical Design** — Every system I build, I ask: who does this help and who might it hurt?
-- **Ground-Level Understanding** — I have seen how large systems affect ordinary people up close. That shapes how I design.
-- **Research Before Action** — I rely on evidence, not assumptions.
-- **Continuous Learning** — Stay informed, stay humble, keep improving.
+- **Awareness of impact** — I try to think about who a system affects, not just whether it works.
+- **Ground-level experience** — Working inside large systems early in my career taught me things that research alone could not.
+- **Evidence over assumption** — I prefer to look at data before drawing conclusions.
+- **Staying a learner** — The more I know, the more I realize there is still to learn.
 
 ## Early Career — Engineering, Teaching & Research (Bangladesh, 2006–2017)
 
@@ -46,7 +46,7 @@ Architected multi-agent AI frameworks using LangGraph, CrewAI, and N8N. Hold cer
 ## Ongoing
 
 - Supporting nonprofits that use technology for community benefit
-- Promoting responsible AI practices and ethical guardrails in engineering teams
+- Thinking carefully about responsible AI practices in the systems I build
 - Publishing and presenting research at the intersection of technology and human impact
 
-> "Understanding how systems affect real people is not separate from engineering — it is part of it."
+> My background in human systems is not separate from my engineering work — it quietly informs how I approach problems.

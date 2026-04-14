@@ -126,6 +126,123 @@ figure.third > a img:hover {
   color: #000;
 }
 
+/* ── Footer — Auburn theme ── */
+.page__footer {
+  background: #03244D !important;
+}
+
+.page__footer-copyright,
+.page__footer-copyright a {
+  color: #e2e8f0 !important;
+}
+
+.page__footer .social-icons a,
+.page__footer a {
+  color: #E87722 !important;
+}
+
+.page__footer a:hover {
+  color: #fff !important;
+}
+
+/* ── Offset page content below fixed nav ── */
+body {
+  padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 120px;
+  }
+}
+
+/* ── Masthead full width, no white space, sharp bottom line ── */
+.masthead {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #03244D !important;
+  border-bottom: none !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18) !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Light text on dark nav */
+.masthead .site-title,
+.masthead .site-title:visited {
+  color: #E87722 !important;
+}
+
+.masthead .visible-links a,
+.masthead .nav-parent-label,
+.masthead .search__toggle {
+  color: #e2e8f0 !important;
+}
+
+.masthead .visible-links a:hover,
+.masthead .nav-parent-label:hover {
+  color: #fff !important;
+}
+
+/* Dropdown items stay dark on white background */
+.masthead .visible-links .dropdown-menu li a,
+.masthead .dropdown-menu li a {
+  color: #111 !important;
+}
+
+.masthead .visible-links .dropdown-menu li a:hover,
+.masthead .dropdown-menu li a:hover {
+  color: #000 !important;
+}
+
+.masthead__inner-wrap {
+  max-width: 1280px;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
+.greedy-nav {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* ── Mobile: hide Follow button, show social links horizontally ── */
+@media (max-width: 925px) {
+  .author__urls-wrapper > button {
+    display: none !important;
+  }
+
+  .author__urls {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.4rem 1.2rem;
+    list-style: none !important;
+    padding: 0.4rem 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
+    position: static !important;
+  }
+
+  .author__urls li a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.82rem;
+    white-space: nowrap;
+  }
+}
+
 /* ── Fix nav overflow so dropdowns aren't clipped ── */
 .greedy-nav {
   overflow: visible !important;
@@ -156,7 +273,7 @@ figure.third > a img:hover {
 
 .masthead__menu-item.has-dropdown:hover .nav-parent-label,
 .masthead__menu-item.has-dropdown.open .nav-parent-label {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .dropdown-arrow {
@@ -221,3 +338,4 @@ figure.third > a img:hover {
   color: #111;
   padding-left: 1.2rem;
 }
+
